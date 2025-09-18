@@ -1,0 +1,23 @@
+{
+  "id": "docs-example/ux-writing",
+  "title": "UX writing",
+  "description": "This page showcases examples of microcopy I created for the product’s interface.",
+  "source": "@site/docs/docs-example/ux-writing.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/ux-writing",
+  "permalink": "/professional-portfolio/docs/docs-example/ux-writing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/ux-writing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorials",
+    "permalink": "/professional-portfolio/docs/docs-example/tutorials"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/scripts",
+  "title": "Scripts",
+  "description": "I design trainings accessible to both customers and employees through the company’s learning platform.",
+  "source": "@site/docs/docs-example/scripts.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/scripts",
+  "permalink": "/professional-portfolio/docs/docs-example/scripts",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/scripts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Release notes",
+    "permalink": "/professional-portfolio/docs/docs-example/release-notes"
+  },
+  "next": {
+    "title": "Tutorials",
+    "permalink": "/professional-portfolio/docs/docs-example/tutorials"
+  }
+}

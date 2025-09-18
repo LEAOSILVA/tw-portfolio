@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/glossary",
+  "title": "Glossary",
+  "description": "Here’s a sample glossary from Sensedia Integrations, designed to clarify key terms and concepts for users.",
+  "source": "@site/docs/docs-example/glossary.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/glossary",
+  "permalink": "/professional-portfolio/docs/docs-example/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "FAQs",
+    "permalink": "/professional-portfolio/docs/docs-example/faqs"
+  },
+  "next": {
+    "title": "Release notes",
+    "permalink": "/professional-portfolio/docs/docs-example/release-notes"
+  }
+}

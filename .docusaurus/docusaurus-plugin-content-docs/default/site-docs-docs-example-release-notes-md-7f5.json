@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/release-notes",
+  "title": "Release notes",
+  "description": "Here’s a sample of release notes from Sensedia Integrations, showing how product new features, improvements, and fixes are communicated to users.",
+  "source": "@site/docs/docs-example/release-notes.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/release-notes",
+  "permalink": "/professional-portfolio/docs/docs-example/release-notes",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/release-notes.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/professional-portfolio/docs/docs-example/glossary"
+  },
+  "next": {
+    "title": "Scripts",
+    "permalink": "/professional-portfolio/docs/docs-example/scripts"
+  }
+}

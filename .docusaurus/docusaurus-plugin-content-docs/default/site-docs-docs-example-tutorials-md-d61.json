@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/tutorials",
+  "title": "Tutorials",
+  "description": "This tutorial was created to support a solution offered by Sensedia for its Open Finance customers in Brazil.",
+  "source": "@site/docs/docs-example/tutorials.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/tutorials",
+  "permalink": "/professional-portfolio/docs/docs-example/tutorials",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/tutorials.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scripts",
+    "permalink": "/professional-portfolio/docs/docs-example/scripts"
+  },
+  "next": {
+    "title": "UX writing",
+    "permalink": "/professional-portfolio/docs/docs-example/ux-writing"
+  }
+}

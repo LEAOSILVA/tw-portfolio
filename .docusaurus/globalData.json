@@ -1,0 +1,88 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/professional-portfolio/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/professional-portfolio/docs",
+          "mainDocId": "about-me/summary",
+          "docs": [
+            {
+              "id": "about-me/contact-information",
+              "path": "/professional-portfolio/docs/about-me/contact-information",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "about-me/experience-education",
+              "path": "/professional-portfolio/docs/about-me/experience-education",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "about-me/summary",
+              "path": "/professional-portfolio/docs/about-me/summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/api-doc",
+              "path": "/professional-portfolio/docs/docs-example/api-doc",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/faqs",
+              "path": "/professional-portfolio/docs/docs-example/faqs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/glossary",
+              "path": "/professional-portfolio/docs/docs-example/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/release-notes",
+              "path": "/professional-portfolio/docs/docs-example/release-notes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/scripts",
+              "path": "/professional-portfolio/docs/docs-example/scripts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/tutorials",
+              "path": "/professional-portfolio/docs/docs-example/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docs-example/ux-writing",
+              "path": "/professional-portfolio/docs/docs-example/ux-writing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/about-me",
+              "path": "/professional-portfolio/docs/category/about-me",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/docs",
+              "path": "/professional-portfolio/docs/category/docs",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/professional-portfolio/docs/category/about-me",
+                "label": "About me"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

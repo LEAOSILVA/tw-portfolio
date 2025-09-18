@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/faqs",
+  "title": "FAQs",
+  "description": "This is a sample of FAQs from Sensedia Integrations, organized by topic for easier navigation.",
+  "source": "@site/docs/docs-example/faqs.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/faqs",
+  "permalink": "/professional-portfolio/docs/docs-example/faqs",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/faqs.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API",
+    "permalink": "/professional-portfolio/docs/docs-example/api-doc"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/professional-portfolio/docs/docs-example/glossary"
+  }
+}
