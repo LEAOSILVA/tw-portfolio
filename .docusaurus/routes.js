@@ -3,161 +3,161 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/professional-portfolio/blog',
-    component: ComponentCreator('/professional-portfolio/blog', 'bf7'),
+    path: '/tw-portfolio/blog',
+    component: ComponentCreator('/tw-portfolio/blog', 'd5c'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/archive',
-    component: ComponentCreator('/professional-portfolio/blog/archive', 'ee9'),
+    path: '/tw-portfolio/blog/archive',
+    component: ComponentCreator('/tw-portfolio/blog/archive', 'e47'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/authors',
-    component: ComponentCreator('/professional-portfolio/blog/authors', '84f'),
+    path: '/tw-portfolio/blog/authors',
+    component: ComponentCreator('/tw-portfolio/blog/authors', '3aa'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/professional-portfolio/blog/authors/all-sebastien-lorber-articles', '1fa'),
+    path: '/tw-portfolio/blog/authors/all-sebastien-lorber-articles',
+    component: ComponentCreator('/tw-portfolio/blog/authors/all-sebastien-lorber-articles', '7ef'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/authors/yangshun',
-    component: ComponentCreator('/professional-portfolio/blog/authors/yangshun', '2da'),
+    path: '/tw-portfolio/blog/authors/yangshun',
+    component: ComponentCreator('/tw-portfolio/blog/authors/yangshun', 'fd8'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/first-blog-post',
-    component: ComponentCreator('/professional-portfolio/blog/first-blog-post', 'ffa'),
+    path: '/tw-portfolio/blog/first-blog-post',
+    component: ComponentCreator('/tw-portfolio/blog/first-blog-post', '612'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/long-blog-post',
-    component: ComponentCreator('/professional-portfolio/blog/long-blog-post', 'eef'),
+    path: '/tw-portfolio/blog/long-blog-post',
+    component: ComponentCreator('/tw-portfolio/blog/long-blog-post', '0d3'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/mdx-blog-post',
-    component: ComponentCreator('/professional-portfolio/blog/mdx-blog-post', '102'),
+    path: '/tw-portfolio/blog/mdx-blog-post',
+    component: ComponentCreator('/tw-portfolio/blog/mdx-blog-post', 'a59'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/tags',
-    component: ComponentCreator('/professional-portfolio/blog/tags', '392'),
+    path: '/tw-portfolio/blog/tags',
+    component: ComponentCreator('/tw-portfolio/blog/tags', '393'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/tags/docusaurus',
-    component: ComponentCreator('/professional-portfolio/blog/tags/docusaurus', 'd69'),
+    path: '/tw-portfolio/blog/tags/docusaurus',
+    component: ComponentCreator('/tw-portfolio/blog/tags/docusaurus', '11b'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/tags/facebook',
-    component: ComponentCreator('/professional-portfolio/blog/tags/facebook', 'b96'),
+    path: '/tw-portfolio/blog/tags/facebook',
+    component: ComponentCreator('/tw-portfolio/blog/tags/facebook', 'f4e'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/tags/hello',
-    component: ComponentCreator('/professional-portfolio/blog/tags/hello', 'ac5'),
+    path: '/tw-portfolio/blog/tags/hello',
+    component: ComponentCreator('/tw-portfolio/blog/tags/hello', 'f10'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/tags/hola',
-    component: ComponentCreator('/professional-portfolio/blog/tags/hola', '45d'),
+    path: '/tw-portfolio/blog/tags/hola',
+    component: ComponentCreator('/tw-portfolio/blog/tags/hola', '721'),
     exact: true
   },
   {
-    path: '/professional-portfolio/blog/welcome',
-    component: ComponentCreator('/professional-portfolio/blog/welcome', '668'),
+    path: '/tw-portfolio/blog/welcome',
+    component: ComponentCreator('/tw-portfolio/blog/welcome', 'ba5'),
     exact: true
   },
   {
-    path: '/professional-portfolio/markdown-page',
-    component: ComponentCreator('/professional-portfolio/markdown-page', '348'),
+    path: '/tw-portfolio/markdown-page',
+    component: ComponentCreator('/tw-portfolio/markdown-page', '82f'),
     exact: true
   },
   {
-    path: '/professional-portfolio/docs',
-    component: ComponentCreator('/professional-portfolio/docs', '5d6'),
+    path: '/tw-portfolio/docs',
+    component: ComponentCreator('/tw-portfolio/docs', '903'),
     routes: [
       {
-        path: '/professional-portfolio/docs',
-        component: ComponentCreator('/professional-portfolio/docs', '5c2'),
+        path: '/tw-portfolio/docs',
+        component: ComponentCreator('/tw-portfolio/docs', '7be'),
         routes: [
           {
-            path: '/professional-portfolio/docs',
-            component: ComponentCreator('/professional-portfolio/docs', '23d'),
+            path: '/tw-portfolio/docs',
+            component: ComponentCreator('/tw-portfolio/docs', '266'),
             routes: [
               {
-                path: '/professional-portfolio/docs/about-me/contact-information',
-                component: ComponentCreator('/professional-portfolio/docs/about-me/contact-information', '2c8'),
+                path: '/tw-portfolio/docs/about-me/contact-information',
+                component: ComponentCreator('/tw-portfolio/docs/about-me/contact-information', '6c2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/about-me/experience-education',
-                component: ComponentCreator('/professional-portfolio/docs/about-me/experience-education', '05a'),
+                path: '/tw-portfolio/docs/about-me/experience-education',
+                component: ComponentCreator('/tw-portfolio/docs/about-me/experience-education', 'a32'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/about-me/summary',
-                component: ComponentCreator('/professional-portfolio/docs/about-me/summary', '639'),
+                path: '/tw-portfolio/docs/about-me/summary',
+                component: ComponentCreator('/tw-portfolio/docs/about-me/summary', '4c4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/category/about-me',
-                component: ComponentCreator('/professional-portfolio/docs/category/about-me', '44e'),
+                path: '/tw-portfolio/docs/category/about-me',
+                component: ComponentCreator('/tw-portfolio/docs/category/about-me', '40c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/category/docs',
-                component: ComponentCreator('/professional-portfolio/docs/category/docs', '18f'),
+                path: '/tw-portfolio/docs/category/docs',
+                component: ComponentCreator('/tw-portfolio/docs/category/docs', 'f84'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/api-doc',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/api-doc', 'e2e'),
+                path: '/tw-portfolio/docs/docs-example/api-doc',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/api-doc', 'dfb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/faqs',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/faqs', '0b6'),
+                path: '/tw-portfolio/docs/docs-example/faqs',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/faqs', '17e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/glossary',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/glossary', '458'),
+                path: '/tw-portfolio/docs/docs-example/glossary',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/glossary', '2f8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/release-notes',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/release-notes', '348'),
+                path: '/tw-portfolio/docs/docs-example/release-notes',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/release-notes', 'f74'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/scripts',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/scripts', '2f3'),
+                path: '/tw-portfolio/docs/docs-example/scripts',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/scripts', '767'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/tutorials',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/tutorials', 'eef'),
+                path: '/tw-portfolio/docs/docs-example/tutorials',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials', '59d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/professional-portfolio/docs/docs-example/ux-writing',
-                component: ComponentCreator('/professional-portfolio/docs/docs-example/ux-writing', 'a49'),
+                path: '/tw-portfolio/docs/docs-example/ux-writing',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/ux-writing', 'ff1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -168,8 +168,8 @@ export default [
     ]
   },
   {
-    path: '/professional-portfolio/',
-    component: ComponentCreator('/professional-portfolio/', '0d4'),
+    path: '/tw-portfolio/',
+    component: ComponentCreator('/tw-portfolio/', '208'),
     exact: true
   },
   {

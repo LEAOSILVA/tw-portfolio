@@ -5,7 +5,7 @@
   "source": "@site/docs/docs-example/faqs.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/faqs",
-  "permalink": "/professional-portfolio/docs/docs-example/faqs",
+  "permalink": "/tw-portfolio/docs/docs-example/faqs",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/faqs.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "API",
-    "permalink": "/professional-portfolio/docs/docs-example/api-doc"
+    "permalink": "/tw-portfolio/docs/docs-example/api-doc"
   },
   "next": {
     "title": "Glossary",
-    "permalink": "/professional-portfolio/docs/docs-example/glossary"
+    "permalink": "/tw-portfolio/docs/docs-example/glossary"
   }
 }

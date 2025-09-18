@@ -1,5 +1,5 @@
 {
-  "permalink": "/professional-portfolio/blog/long-blog-post",
+  "permalink": "/tw-portfolio/blog/long-blog-post",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Long Blog Post",
@@ -9,13 +9,13 @@
     {
       "inline": false,
       "label": "Hello",
-      "permalink": "/professional-portfolio/blog/tags/hello",
+      "permalink": "/tw-portfolio/blog/tags/hello",
       "description": "Hello tag description"
     },
     {
       "inline": false,
       "label": "Docusaurus",
-      "permalink": "/professional-portfolio/blog/tags/docusaurus",
+      "permalink": "/tw-portfolio/blog/tags/docusaurus",
       "description": "Docusaurus tag description"
     }
   ],
@@ -27,7 +27,7 @@
       "title": "Ex-Meta Staff Engineer, Co-founder GreatFrontEnd",
       "url": "https://linkedin.com/in/yangshun",
       "page": {
-        "permalink": "/professional-portfolio/blog/authors/yangshun"
+        "permalink": "/tw-portfolio/blog/authors/yangshun"
       },
       "socials": {
         "x": "https://x.com/yangshunz",
@@ -51,10 +51,10 @@
   "unlisted": false,
   "prevItem": {
     "title": "MDX Blog Post",
-    "permalink": "/professional-portfolio/blog/mdx-blog-post"
+    "permalink": "/tw-portfolio/blog/mdx-blog-post"
   },
   "nextItem": {
     "title": "First Blog Post",
-    "permalink": "/professional-portfolio/blog/first-blog-post"
+    "permalink": "/tw-portfolio/blog/first-blog-post"
   }
 }

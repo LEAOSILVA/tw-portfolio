@@ -27,9 +27,9 @@ export default {
     "experimental_router": "browser"
   },
   "url": "https://LEAOSILVA.github.io",
-  "baseUrl": "/professional-portfolio/",
+  "baseUrl": "/tw-portfolio/",
   "organizationName": "LEAOSILVA",
-  "projectName": "professional-portfolio",
+  "projectName": "tw-portfolio",
   "trailingSlash": false,
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",

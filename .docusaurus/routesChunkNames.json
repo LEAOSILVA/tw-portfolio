@@ -1,5 +1,5 @@
 {
-  "/professional-portfolio/blog-bf7": {
+  "/tw-portfolio/blog-d5c": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "513bbde5"
+    "__props": "72ba4da7"
   },
-  "/professional-portfolio/blog/archive-ee9": {
+  "/tw-portfolio/blog/archive-e47": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "42df6435"
+    "__props": "f35fd76c"
   },
-  "/professional-portfolio/blog/authors-84f": {
+  "/tw-portfolio/blog/authors-3aa": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "ebeae593"
+    "__props": "d3b4cdef"
   },
-  "/professional-portfolio/blog/authors/all-sebastien-lorber-articles-1fa": {
+  "/tw-portfolio/blog/authors/all-sebastien-lorber-articles-7ef": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "b2d12d2e"
+    "__props": "ae04bb33"
   },
-  "/professional-portfolio/blog/authors/yangshun-2da": {
+  "/tw-portfolio/blog/authors/yangshun-fd8": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "8e1eaf56"
+    "__props": "1d2c692a"
   },
-  "/professional-portfolio/blog/first-blog-post-ffa": {
+  "/tw-portfolio/blog/first-blog-post-612": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/professional-portfolio/blog/long-blog-post-eef": {
+  "/tw-portfolio/blog/long-blog-post-0d3": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/professional-portfolio/blog/mdx-blog-post-102": {
+  "/tw-portfolio/blog/mdx-blog-post-a59": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/professional-portfolio/blog/tags-392": {
+  "/tw-portfolio/blog/tags-393": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "5d362db3"
+    "__props": "7b9b35c7"
   },
-  "/professional-portfolio/blog/tags/docusaurus-d69": {
+  "/tw-portfolio/blog/tags/docusaurus-11b": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "72355e1f"
+    "__props": "f739d2ba"
   },
-  "/professional-portfolio/blog/tags/facebook-b96": {
+  "/tw-portfolio/blog/tags/facebook-f4e": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "4222c5e8"
+    "__props": "1e413246"
   },
-  "/professional-portfolio/blog/tags/hello-ac5": {
+  "/tw-portfolio/blog/tags/hello-f10": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "83c2f6a6"
+    "__props": "ccc98704"
   },
-  "/professional-portfolio/blog/tags/hola-45d": {
+  "/tw-portfolio/blog/tags/hola-721": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "ff9ce219"
+    "__props": "583a48bf"
   },
-  "/professional-portfolio/blog/welcome-668": {
+  "/tw-portfolio/blog/welcome-ba5": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,75 +199,75 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/professional-portfolio/markdown-page-348": {
+  "/tw-portfolio/markdown-page-82f": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/professional-portfolio/docs-5d6": {
+  "/tw-portfolio/docs-903": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/professional-portfolio/docs-5c2": {
+  "/tw-portfolio/docs-7be": {
     "__comp": "a7bd4aaa",
-    "__props": "f6be0bd1"
+    "__props": "1a9ce06b"
   },
-  "/professional-portfolio/docs-23d": {
+  "/tw-portfolio/docs-266": {
     "__comp": "a94703ab"
   },
-  "/professional-portfolio/docs/about-me/contact-information-2c8": {
+  "/tw-portfolio/docs/about-me/contact-information-6c2": {
     "__comp": "17896441",
     "content": "648888d8"
   },
-  "/professional-portfolio/docs/about-me/experience-education-05a": {
+  "/tw-portfolio/docs/about-me/experience-education-a32": {
     "__comp": "17896441",
     "content": "cf9f79d2"
   },
-  "/professional-portfolio/docs/about-me/summary-639": {
+  "/tw-portfolio/docs/about-me/summary-4c4": {
     "__comp": "17896441",
     "content": "54f38f2f"
   },
-  "/professional-portfolio/docs/category/about-me-44e": {
+  "/tw-portfolio/docs/category/about-me-40c": {
     "__comp": "14eb3368",
-    "__props": "093f994d"
+    "__props": "e4649244"
   },
-  "/professional-portfolio/docs/category/docs-18f": {
+  "/tw-portfolio/docs/category/docs-f84": {
     "__comp": "14eb3368",
-    "__props": "02fddfc0"
+    "__props": "41afedcf"
   },
-  "/professional-portfolio/docs/docs-example/api-doc-e2e": {
+  "/tw-portfolio/docs/docs-example/api-doc-dfb": {
     "__comp": "17896441",
     "content": "35cec2b9"
   },
-  "/professional-portfolio/docs/docs-example/faqs-0b6": {
+  "/tw-portfolio/docs/docs-example/faqs-17e": {
     "__comp": "17896441",
     "content": "5b192ab2"
   },
-  "/professional-portfolio/docs/docs-example/glossary-458": {
+  "/tw-portfolio/docs/docs-example/glossary-2f8": {
     "__comp": "17896441",
     "content": "84f87cef"
   },
-  "/professional-portfolio/docs/docs-example/release-notes-348": {
+  "/tw-portfolio/docs/docs-example/release-notes-f74": {
     "__comp": "17896441",
     "content": "7f5e9c69"
   },
-  "/professional-portfolio/docs/docs-example/scripts-2f3": {
+  "/tw-portfolio/docs/docs-example/scripts-767": {
     "__comp": "17896441",
     "content": "83b3a838"
   },
-  "/professional-portfolio/docs/docs-example/tutorials-eef": {
+  "/tw-portfolio/docs/docs-example/tutorials-59d": {
     "__comp": "17896441",
     "content": "d61556bc"
   },
-  "/professional-portfolio/docs/docs-example/ux-writing-a49": {
+  "/tw-portfolio/docs/docs-example/ux-writing-ff1": {
     "__comp": "17896441",
     "content": "efd41f2d"
   },
-  "/professional-portfolio/-0d4": {
+  "/tw-portfolio/-208": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "a7456010"

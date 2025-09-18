@@ -5,7 +5,7 @@
   "source": "@site/docs/docs-example/api-doc.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/api-doc",
-  "permalink": "/professional-portfolio/docs/docs-example/api-doc",
+  "permalink": "/tw-portfolio/docs/docs-example/api-doc",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/api-doc.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Docs",
-    "permalink": "/professional-portfolio/docs/category/docs"
+    "permalink": "/tw-portfolio/docs/category/docs"
   },
   "next": {
     "title": "FAQs",
-    "permalink": "/professional-portfolio/docs/docs-example/faqs"
+    "permalink": "/tw-portfolio/docs/docs-example/faqs"
   }
 }
