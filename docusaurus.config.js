@@ -17,11 +17,11 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://LEAOSILVA.github.io',
-  baseUrl: '/professional-portfolio/',
+  baseUrl: '/tw-portfolio/',
 
   // GitHub pages deployment config.
   organizationName: 'LEAOSILVA', // Usually your GitHub org/user name.
-  projectName: 'professional-portfolio', // Usually your repo name.
+  projectName: 'tw-portfolio', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
