@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const AboutMeLinks = [
@@ -9,8 +10,7 @@ const AboutMeLinks = [
 ];
 
 const DocsLinks = [
-  { title: 'API', href: '/docs/docs-example/api-doc' },
-  { title: 'FAQs', href: '/docs/docs-example/faqs' },
+   { title: 'FAQs', href: '/docs/docs-example/faqs' },
   { title: 'Glossary', href: '/docs/docs-example/glossary' },
   { title: 'Release Notes', href: '/docs/docs-example/release-notes' },
   { title: 'Scripts', href: '/docs/docs-example/scripts' },
@@ -29,7 +29,7 @@ function Column({ Svg, title, links }) {
         <ul style={{ listStyle: 'none', padding: 0 }}>
           {links.map((item, idx) => (
             <li key={idx} style={{ margin: '6px 0' }}>
-              <a href={item.href}>{item.title}</a>
+              <Link to={item.href}>{item.title}</Link>
             </li>
           ))}
         </ul>

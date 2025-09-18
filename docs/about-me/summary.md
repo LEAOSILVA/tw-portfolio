@@ -58,7 +58,6 @@ I’m passionate about creating documentation that not only informs but also emp
 
 Continue exploring and check out some of my docs:
 
-* [API](../docs-example/api-doc)
 * [FAQs](../docs-example/faqs)
 * [Glossary](../docs-example/glossary)
 * [Release notes](../docs-example/release-notes)
