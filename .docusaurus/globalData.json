@@ -13,70 +13,61 @@
             {
               "id": "about-me/contact-information",
               "path": "/tw-portfolio/docs/about-me/contact-information",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "aboutMeSidebar"
             },
             {
               "id": "about-me/experience-education",
               "path": "/tw-portfolio/docs/about-me/experience-education",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "aboutMeSidebar"
             },
             {
               "id": "about-me/summary",
               "path": "/tw-portfolio/docs/about-me/summary",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "docs-example/api-doc",
-              "path": "/tw-portfolio/docs/docs-example/api-doc",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "aboutMeSidebar"
             },
             {
               "id": "docs-example/faqs",
               "path": "/tw-portfolio/docs/docs-example/faqs",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docsSidebar"
             },
             {
               "id": "docs-example/glossary",
               "path": "/tw-portfolio/docs/docs-example/glossary",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docsSidebar"
             },
             {
               "id": "docs-example/release-notes",
               "path": "/tw-portfolio/docs/docs-example/release-notes",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docsSidebar"
             },
             {
               "id": "docs-example/scripts",
               "path": "/tw-portfolio/docs/docs-example/scripts",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docsSidebar"
             },
             {
               "id": "docs-example/tutorials",
               "path": "/tw-portfolio/docs/docs-example/tutorials",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docsSidebar"
             },
             {
               "id": "docs-example/ux-writing",
               "path": "/tw-portfolio/docs/docs-example/ux-writing",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/about-me",
-              "path": "/tw-portfolio/docs/category/about-me",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/docs",
-              "path": "/tw-portfolio/docs/category/docs",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "docsSidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "tutorialSidebar": {
+            "aboutMeSidebar": {
               "link": {
-                "path": "/tw-portfolio/docs/category/about-me",
-                "label": "About me"
+                "path": "/tw-portfolio/docs/about-me/summary",
+                "label": "about-me/summary"
+              }
+            },
+            "docsSidebar": {
+              "link": {
+                "path": "/tw-portfolio/docs/docs-example/faqs",
+                "label": "docs-example/faqs"
               }
             }
           }

@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/tw-portfolio/__docusaurus/debug',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug', '62e'),
+    exact: true
+  },
+  {
+    path: '/tw-portfolio/__docusaurus/debug/config',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug/config', '017'),
+    exact: true
+  },
+  {
+    path: '/tw-portfolio/__docusaurus/debug/content',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug/content', 'f44'),
+    exact: true
+  },
+  {
+    path: '/tw-portfolio/__docusaurus/debug/globalData',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug/globalData', '3ec'),
+    exact: true
+  },
+  {
+    path: '/tw-portfolio/__docusaurus/debug/metadata',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug/metadata', '0f5'),
+    exact: true
+  },
+  {
+    path: '/tw-portfolio/__docusaurus/debug/registry',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug/registry', 'a05'),
+    exact: true
+  },
+  {
+    path: '/tw-portfolio/__docusaurus/debug/routes',
+    component: ComponentCreator('/tw-portfolio/__docusaurus/debug/routes', 'b98'),
+    exact: true
+  },
+  {
     path: '/tw-portfolio/blog',
     component: ComponentCreator('/tw-portfolio/blog', 'd5c'),
     exact: true
@@ -79,87 +114,69 @@ export default [
   },
   {
     path: '/tw-portfolio/docs',
-    component: ComponentCreator('/tw-portfolio/docs', '903'),
+    component: ComponentCreator('/tw-portfolio/docs', '61f'),
     routes: [
       {
         path: '/tw-portfolio/docs',
-        component: ComponentCreator('/tw-portfolio/docs', '7be'),
+        component: ComponentCreator('/tw-portfolio/docs', '669'),
         routes: [
           {
             path: '/tw-portfolio/docs',
-            component: ComponentCreator('/tw-portfolio/docs', '266'),
+            component: ComponentCreator('/tw-portfolio/docs', '538'),
             routes: [
               {
                 path: '/tw-portfolio/docs/about-me/contact-information',
-                component: ComponentCreator('/tw-portfolio/docs/about-me/contact-information', '6c2'),
+                component: ComponentCreator('/tw-portfolio/docs/about-me/contact-information', '032'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "aboutMeSidebar"
               },
               {
                 path: '/tw-portfolio/docs/about-me/experience-education',
-                component: ComponentCreator('/tw-portfolio/docs/about-me/experience-education', 'a32'),
+                component: ComponentCreator('/tw-portfolio/docs/about-me/experience-education', '1b3'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "aboutMeSidebar"
               },
               {
                 path: '/tw-portfolio/docs/about-me/summary',
-                component: ComponentCreator('/tw-portfolio/docs/about-me/summary', '4c4'),
+                component: ComponentCreator('/tw-portfolio/docs/about-me/summary', 'f2f'),
                 exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/tw-portfolio/docs/category/about-me',
-                component: ComponentCreator('/tw-portfolio/docs/category/about-me', '40c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/tw-portfolio/docs/category/docs',
-                component: ComponentCreator('/tw-portfolio/docs/category/docs', 'f84'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/tw-portfolio/docs/docs-example/api-doc',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/api-doc', 'dfb'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "aboutMeSidebar"
               },
               {
                 path: '/tw-portfolio/docs/docs-example/faqs',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/faqs', '17e'),
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/faqs', '41c'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docsSidebar"
               },
               {
                 path: '/tw-portfolio/docs/docs-example/glossary',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/glossary', '2f8'),
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/glossary', 'df6'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docsSidebar"
               },
               {
                 path: '/tw-portfolio/docs/docs-example/release-notes',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/release-notes', 'f74'),
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/release-notes', 'ccb'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docsSidebar"
               },
               {
                 path: '/tw-portfolio/docs/docs-example/scripts',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/scripts', '767'),
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/scripts', 'b85'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docsSidebar"
               },
               {
                 path: '/tw-portfolio/docs/docs-example/tutorials',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials', '59d'),
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials', '3e9'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docsSidebar"
               },
               {
                 path: '/tw-portfolio/docs/docs-example/ux-writing',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/ux-writing', 'ff1'),
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/ux-writing', '545'),
                 exact: true,
-                sidebar: "tutorialSidebar"
+                sidebar: "docsSidebar"
               }
             ]
           }

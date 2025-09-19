@@ -1,31 +1,39 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Custom global CSS for Docusaurus.
+ * Azul escuro #0B2746 como cor principal,
+ * Laranja #FF7A00 como cor de destaque.
  */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #1f3a63;         /* Azul escuro principal */
-  --ifm-color-primary-dark: #1a3354;    /* Azul mais escuro */
-  --ifm-color-primary-darker: #162b45;  /* Azul ainda mais escuro */
-  --ifm-color-primary-darkest: #111f33; /* Azul quase preto */
-  --ifm-color-primary-light: #37518a;   /* Azul intermediário */
-  --ifm-color-primary-lighter: #4a69ad; /* Azul mais claro */
-  --ifm-color-primary-lightest: #5c7fcf;/* Azul bem claro */
+  --ifm-color-primary: #0B2746;         /* Azul escuro principal */
+  --ifm-color-primary-dark: #091f38;    /* Azul mais escuro */
+  --ifm-color-primary-darker: #071a2f;  /* Azul ainda mais escuro */
+  --ifm-color-primary-darkest: #051322; /* Azul quase preto */
+  --ifm-color-primary-light: #12335b;   /* Azul intermediário */
+  --ifm-color-primary-lighter: #1a4476; /* Azul mais claro */
+  --ifm-color-primary-lightest: #245a9e;/* Azul bem claro */
+
+  --ifm-color-secondary: #FF7A00;       /* Laranja de destaque */
+  --ifm-color-secondary-light: #ffa64d; /* Laranja claro */
+  --ifm-color-secondary-dark: #cc6200;  /* Laranja escuro */
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #3a5fa6;
-  --ifm-color-primary-dark: #33529a;
-  --ifm-color-primary-darker: #2c478d;
-  --ifm-color-primary-darkest: #22386f;
-  --ifm-color-primary-light: #4b6fb8;
-  --ifm-color-primary-lighter: #5c7fcf;
-  --ifm-color-primary-lightest: #7090e0;
+  --ifm-color-primary: #1a4476;         /* Azul mais claro para contraste */
+  --ifm-color-primary-dark: #163a64;
+  --ifm-color-primary-darker: #122f50;
+  --ifm-color-primary-darkest: #0d233b;
+  --ifm-color-primary-light: #245a9e;
+  --ifm-color-primary-lighter: #326fbd;
+  --ifm-color-primary-lightest: #4a8cd6;
+
+  --ifm-color-secondary: #FF7A00;       /* Mantém o laranja vivo */
+  --ifm-color-secondary-light: #ffa64d;
+  --ifm-color-secondary-dark: #cc6200;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-

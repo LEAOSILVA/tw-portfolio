@@ -15,7 +15,7 @@
   "frontMatter": {
     "sidebar_position": 2
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "aboutMeSidebar",
   "previous": {
     "title": "Summary",
     "permalink": "/tw-portfolio/docs/about-me/summary"

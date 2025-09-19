@@ -70,19 +70,23 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/banner-tw.png",
     "navbar": {
       "title": "My portfolio",
+      "logo": {
+        "alt": "My portfolio logo",
+        "src": "img/icone-tw.png"
+      },
       "items": [
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "aboutMeSidebar",
           "position": "left",
-          "label": "About me"
+          "label": "About Me"
         },
         {
           "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
+          "sidebarId": "docsSidebar",
           "position": "left",
           "label": "Docs"
         }

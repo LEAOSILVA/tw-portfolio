@@ -64,24 +64,30 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/banner-tw.png',
       navbar: {
         title: 'My portfolio',
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About me',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Docs',
-          },
-        ],
+        logo: {
+        alt: 'My portfolio logo',
+        src: 'img/icone-tw.png',
+        // Se quiser versão dark:
+        // srcDark: 'img/banner-tw-dark.png',
       },
+        items: [
+    {
+      type: 'docSidebar',
+      sidebarId: 'aboutMeSidebar', // conecta ao sidebar about-me
+      position: 'left',
+      label: 'About Me',           // texto no navbar
+    },
+    {
+      type: 'docSidebar',
+      sidebarId: 'docsSidebar',    // conecta ao sidebar docs-example
+      position: 'left',
+      label: 'Docs',               // texto no navbar
+    },
+  ],
+},
       footer: {
         style: 'dark',
         links: [

@@ -15,13 +15,9 @@
   "frontMatter": {
     "sidebar_position": 3
   },
-  "sidebar": "tutorialSidebar",
+  "sidebar": "aboutMeSidebar",
   "previous": {
     "title": "Experience and education",
     "permalink": "/tw-portfolio/docs/about-me/experience-education"
-  },
-  "next": {
-    "title": "Docs",
-    "permalink": "/tw-portfolio/docs/category/docs"
   }
 }
