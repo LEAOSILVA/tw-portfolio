@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Release notes
 
-These release notes sample highlight Sensedia Integrations’ new features, improvements, and fixes, clearly communicated for users. They demonstrate how structured, user-focused documentation keeps users informed, and supports effective use of the product.
+These release notes highlight Sensedia Integrations’ new features, improvements, and fixes, clearly communicated for users. They demonstrate how structured, user-focused documentation keeps users informed, and supports effective use of the product.
 
 <details>
   <summary>September 02, 2025</summary>
