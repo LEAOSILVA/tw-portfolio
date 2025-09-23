@@ -15,10 +15,11 @@ const AboutMeLinks = [
 
 const DocsLinks = [
   { title: 'FAQs', href: '/docs/docs-example/faqs' },
+  { title: 'Feature Spec', href: '/docs/docs-example/feature-spec' },
   { title: 'Glossary', href: '/docs/docs-example/glossary' },
   { title: 'Release Notes', href: '/docs/docs-example/release-notes' },
-  { title: 'Scripts', href: '/docs/docs-example/scripts' },
-  { title: 'Tutorials', href: '/docs/docs-example/tutorials' },
+  { title: 'Script', href: '/docs/docs-example/scripts' },
+  { title: 'Tutorial', href: '/docs/docs-example/tutorials' },
   { title: 'UX Writing', href: '/docs/docs-example/ux-writing' },
 ];
 

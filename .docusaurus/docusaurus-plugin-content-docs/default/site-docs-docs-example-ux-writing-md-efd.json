@@ -11,13 +11,13 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/ux-writing.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 7
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Tutorials",
+    "title": "Tutorial",
     "permalink": "/tw-portfolio/docs/docs-example/tutorials"
   }
 }

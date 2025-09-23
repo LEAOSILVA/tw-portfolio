@@ -1,7 +1,7 @@
 {
   "id": "docs-example/faqs",
   "title": "FAQs",
-  "description": "This is a sample of FAQs from Sensedia Integrations, organized by topic for easier navigation.",
+  "description": "These FAQs sample showcase common questions from Sensedia Integrations, organized by topic for easy navigation. They provide clear, practical guidance on authorization, connectors, and executions, helping users quickly understand key platform features and resolve common issues.",
   "source": "@site/docs/docs-example/faqs.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/faqs",
@@ -17,7 +17,7 @@
   },
   "sidebar": "docsSidebar",
   "next": {
-    "title": "Glossary",
-    "permalink": "/tw-portfolio/docs/docs-example/glossary"
+    "title": "Feature spec",
+    "permalink": "/tw-portfolio/docs/docs-example/feature-spec"
   }
 }

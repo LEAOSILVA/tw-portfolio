@@ -1,7 +1,7 @@
 {
   "id": "docs-example/tutorials",
-  "title": "Tutorials",
-  "description": "This tutorial was created to support a solution offered by Sensedia for its Open Finance customers in Brazil.",
+  "title": "Tutorial",
+  "description": "This tutorial explains how to integrate Sensedia’s API Platform and Events Hub to help Open Finance customers in Brazil comply with Central Bank requirements.",
   "source": "@site/docs/docs-example/tutorials.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/tutorials",
@@ -11,13 +11,13 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/tutorials.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 5,
+  "sidebarPosition": 6,
   "frontMatter": {
-    "sidebar_position": 5
+    "sidebar_position": 6
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Scripts",
+    "title": "Script",
     "permalink": "/tw-portfolio/docs/docs-example/scripts"
   },
   "next": {

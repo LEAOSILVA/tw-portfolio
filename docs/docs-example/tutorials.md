@@ -1,14 +1,12 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-# Tutorials
+# Tutorial
 
-This tutorial was created to support a solution offered by Sensedia for its Open Finance customers in Brazil.
+This tutorial explains how to integrate Sensedia’s API Platform and Events Hub to help Open Finance customers in Brazil comply with Central Bank requirements. 
 
-The solution helps institutions comply with Central Bank requirements by integrating two Sensedia products: API Platform and Events Hub.
-
-The documentation is originally published at [Sensedia Docs | Open Finance | Data Quality Engine](https://docs.sensedia.com/en/open-finance-guide/Latest/mqd.html) 
+I was tasked with creating it under a tight deadline, with limited prior knowledge of Open Finance (as I was not part of the Open Finance team). By clearly demonstrating the integrated use of these products, the tutorial enabled the immediate onboarding of eight clients, showing how effective documentation can deliver real business impact even under challenging conditions.
 
 ## Data Quality Engine
 
@@ -30,25 +28,33 @@ Below is the step-by-step guide for integration:
 
 ---
 
-### Step 1: Configuring the Events Hub {#evh}
+### Step 1: Configuring Events Hub
 
-#### Context
+Access **Events Hub** and perform the following actions:
 
-1. Create a context, as shown in the image below:
+#### Create a context
+
+1. Create a context and fill in the required fields (name and path), as shown in the image below:
 
    ![MQD context creation screen](./img/create-context.png)
 
    :::note[NOTE] 
-   Consult more information on configuring [contexts](https://docs.sensedia.com/en/events-hub-guide/Latest/contexts.html) in the Events Hub. 
+   Consult more information on configuring [contexts](https://docs.sensedia.com/en/events-hub-guide/Latest/contexts.html) in Events Hub. 
    :::
 
-#### Handler
+#### Create a handler
 
-1. Create a *handler*, for example: **MQD Handler**.
-2. In the **Topics** step:
-   - Add client topics: `accounts`, `consents`, `creditCardAccounts`, etc. You must configure one topic for each API eligible for MQD.  
-     ![MQD topic configuration](./img/mqd-topics.png)  
-   - Enable the context in each topic by clicking the magnifying glass.
+1. Create a handler, which will be the **MQD Handler**. You will go through 4 sections to configure the handler: **Overview, Topics, Policy and Review**.
+
+2. In the **Overview** section, fill in the fields with the required information. 
+
+3. In the **Topics** section:
+
+   a. Add client topics, e.g., `accounts`, `consents`, `creditCardAccounts`. You must configure one topic for each API eligible for MQD, as shown in the image below: 
+
+   ![MQD topic configuration](./img/mqd-topics.png)  
+    
+   b. Enable the context in each topic by clicking the magnifying glass.
 
      > **Event publication URL**  
      >  
@@ -57,76 +63,98 @@ Below is the step-by-step guide for integration:
      > See an example of a URL created by the Events Hub:  
      > ![Example of MQD topic URL](./img/example-url.png)
 
-3. In the **Policy** step:
+4. In the **Policy** section: 
 
-* a. Create an **IP Filtering Validation** policy, specific to the outbound IPs of the Sensedia API Platform.
+   a. Create an **IP Filtering Validation** policy, specific to the outbound IPs of the Sensedia API Platform.
 
-:::important[IMPORTANT] 
-To check the IPs of the Sensedia API Platform, access the [Infrastructure Manager](https://docs.sensedia.com/en/api-management-guide/Latest/other-info/infrastructure-manager.html):  
+   :::important[IMPORTANT] 
+   To check the IPs of the Sensedia API Platform, access the [Infrastructure Manager](https://docs.sensedia.com/en/api-management-guide/Latest/other-info/infrastructure-manager.html):  
 
-* Once logged into the platform, append `/info` directly to the end of the URL, as shown below:  
-```
-https://manager-example.sensedia.com/api-management/info/
-```
-:::
+   Once logged into the platform, append `/info` directly to the end of the URL, as shown below:  
 
-* b. Fill in the delivery settings fields:
-     * Retry count
-     * Codes for automatic retries: `500`, `502`, `503`, `504`, `408`
-     * Request timeout
+   ```
+   https://manager-example.sensedia.com/api-management/info/
+   ```
+   :::
 
-Once registered, the information should appear as follows:
+   b. Fill in the delivery settings fields:
 
-![IP Filtering Validation Policy](./img/mqd-data-policy.png)
+    - Retry count
+    - Codes for automatic retries: `500`, `502`, `503`, `504`, `408`
+    - Request timeout
 
-:::note[NOTE] 
-   Consult more information on configuring [handlers](https://docs.sensedia.com/en/events-hub-guide/Latest/handlers.html) in the Events Hub.
-:::
+      Once registered, the information should appear as follows:
 
-#### Subscriber
+      ![IP Filtering Validation Policy](./img/mqd-data-policy.png)
 
-1. Create a subscriber for MQD, which will be the [MQD subscriber API](#mqd-subscriber-api).  
-   ![Registered MQD Subscriber](./img/mqd-subscriber.png)
-2. In the **Security** step:
-   - Validate the key and create a static token for the subscriber (optional).
-3. In the **Topics** step:
-   - Select the MQD Handler and then select the client topics. Enable the **Publish** option.
-   - Fill in the **Subscriber URL** field with the endpoint of the [MQD subscriber API](#mqd-subscriber-api).
-   - Add the status code `200` in the corresponding field.
+      :::note[NOTE] 
+      Consult more information on configuring [handlers](https://docs.sensedia.com/en/events-hub-guide/Latest/handlers.html) in Events Hub.
+      :::
+
+5. In the **Review** section, review the information and save it.
+
+#### Create a subscriber
+
+1. Create a subscriber, which will be the **MQD subscriber API**. You will go through 4 sections to configure the subscriber: **Overview, Security, Topics and Review**.
+
+![Registered MQD Subscriber](./img/mqd-subscriber.png)
+
+2. In the **Overview** section, fill in the fields with the required information. 
+
+3. In the **Security** section, validate the key and create a static token for the subscriber (optional).
+
+4. In the **Topics** section:
+
+   a. Select the MQD Handler, then select the client topics. Enable the **Publish** option.
+
+   b. Fill in the **Subscriber URL** field with the endpoint of the [MQD subscriber API](#mqd-subscriber-api).
+
+   c. Add the status code `200` in the corresponding field.
 
    ![MQD subscriber configuration](./img/config-subscriber.png)
 
 :::note[NOTE] 
 If the API is inactive at the time of registration, the subscriber status will appear gray, but this does not mean it is inactive.  
 
-Consult more information on configuring [subscribers](https://docs.sensedia.com/en/events-hub-guide/Latest/subscribers.html) in the Events Hub.
+Consult more information on configuring [subscribers](https://docs.sensedia.com/en/events-hub-guide/Latest/subscribers.html) in Events Hub.
 :::
+
+5. In the **Review** section, review the information and save it.
 
 ---
 
-### Step 2: Configuring the MQD subscriber API {#mqd-subscriber-api}
+### Step 2: Configuring the MQD subscriber API
 
-Configure an **MQD subscriber API** that will act as a proxy with the financial institution's environment.  
+Access the **API Platform** and perform the actions below.
+
+You will now configure the **MQD subscriber API**, which will act as a proxy with the financial institution's environment.  
+
 This API will be responsible for receiving data from the Events Hub and forwarding it to MQD.
 
 When configuring this API:
 
-1. In the [Resources](https://docs.sensedia.com/en/api-management-guide/Latest/apis/resources.html) step:
-   - Add a resource, for example: `v1/report-data`.
-2. In the [Flows](https://docs.sensedia.com/en/api-management-guide/Latest/apis/flows.html) step:
-   - Insert the URL that will be the API's destination, which varies depending on the API to be exposed.  
-     ![API destination configuration](./img/api-destination.png)
-   - Add the following interceptors:
-     * **IP Filtering**: with the outbound IPs of the Events Hub (check the IPs with the support team).
-     * **Access Token Validation**: the same inserted in the Events Hub.
-     * **Custom JS**: will manipulate the header for MQD format. You can customize it for the client by removing some unnecessary headers.  
+1. In the [**Resources**](https://docs.sensedia.com/en/api-management-guide/Latest/apis/resources.html) step, add a resource. For example: `v1/report-data`.
+2. In the [**Flows**](https://docs.sensedia.com/en/api-management-guide/Latest/apis/flows.html) step:
 
-       Check the Custom JS interceptor in the API flow:  
+   a. Insert the URL that will be the API's destination, which varies depending on the API to be exposed.  
+
+      ![API destination configuration](./img/api-destination.png)
+
+   b. Add the following interceptors:
+
+     - **IP Filtering**: with the outbound IPs of Events Hub (check the IPs with the support team).
+
+     - **Access Token Validation**: the same inserted in Events Hub.
+
+     - **Custom JS**: will manipulate the header for MQD format. You can customize it for the client by removing some unnecessary headers.  
+
+       Check the Custom JS interceptor in the API flow: 
+
        ![JS interceptor in MQD Subscriber API](./img/mqd-api-interceptor.png)
 
        You can configure the JS interceptor as follows:
 
-       ```javascript
+       ```javascript title="Configuring the JS interceptor"
        const scriptName = String("MQD - Event Subscriber Interceptor ");
        const scriptVersion = String("1.0.0");
        try {
@@ -153,19 +181,19 @@ Consult more information on creating [APIs](https://docs.sensedia.com/en/api-man
 
 ---
 
-### Step 3: Configuring the Custom JS interceptor in the flow of data APIs {#data-api}
+### Step 3: Configuring the Custom JS interceptor in the flow of data APIs
 
 In the Sensedia API Platform, select the data APIs eligible for MQD:
 
-1. Add the Custom JS interceptor in the [Flows](https://docs.sensedia.com/en/api-management-guide/Latest/apis/flows.html) step.  
-   If there is more than one API, place the interceptor once in each existing API.
+1. Add the Custom JS interceptor in the [**Flows**](https://docs.sensedia.com/en/api-management-guide/Latest/apis/flows.html) step. If there is more than one API, place the interceptor once in each existing API.
+
 2. In the **Resources** field, keep the "All" option.
 
-![Adding JS Interceptor in Flow](./img/mqd-data-api-interceptor.png)
+  ![Adding JS Interceptor in Flow](./img/mqd-data-api-interceptor.png)
 
-You can configure the Custom JS interceptor as follows:
+  You can configure the Custom JS interceptor as follows:
 
-```javascript
+```javascript title="Configuring the Custom JS interceptor"
 const scriptName = String("MQD - Event Producer Interceptor");
 const scriptVersion = String("1.1.0");
 

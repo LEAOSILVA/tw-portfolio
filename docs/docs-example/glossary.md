@@ -1,20 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Glossary
 
-Here’s a sample glossary from Sensedia Integrations, designed to clarify key terms and concepts for users.
+This glossary sample presents key terms and concepts from Sensedia Integrations, organized for easy reference. It helps users quickly understand the platform’s language and functionality, demonstrating how clear, structured documentation supports effective learning and usage.
 
-Originally published at [Sensedia Docs | Integrations | Glossary](https://docs.sensedia.com/en/integrations-guide/Latest/glossary.html)
-
-:::note[NOTE]    
-Some of the links were removed.
-:::
-
-
-# A
-
+## A
 
 | Term | Definition |
 |------|------------|
@@ -25,13 +17,12 @@ Some of the links were removed.
 
 ---
 
-# C
+## C
 
 | Term | Definition |
 |------|------------|
 | Camel Context | Core of Apache Camel responsible for managing integration between systems. It uses a *Domain Specific Language* or DSL to define and build integration routes. |
-| [Client Credentials](https://docs.sensedia.com/en/integrations-guide/Latest/oauth2-client-credentials.html) | Authorization flow of 
-OAuth 2.0 that uses client credentials to directly obtain access tokens without requiring end-user interaction. |
+| [Client Credentials](https://docs.sensedia.com/en/integrations-guide/Latest/oauth2-client-credentials.html) | Authorization flow of OAuth 2.0 that uses client credentials to directly obtain access tokens without requiring end-user interaction. |
 | Code Challenge Method | Security extension in [Authorization Code with PKCE](https://docs.sensedia.com/en/integrations-guide/Latest/oauth2-pkce.html) that protects applications and access tokens using code challenges. |
 | [Connector](chttps://docs.sensedia.com/en/integrations-guide/Latest/connectors.html) | *Step* responsible for integrating with external systems. Translates information in protocols like HTTP to consume or send data via APIs. |
 | Consumer | Apache Camel component that acts as a data entry point, initiating the integration flow. See also Trigger. |
@@ -39,7 +30,7 @@ OAuth 2.0 that uses client credentials to directly obtain access tokens without 
 
 ---
 
-# D
+## D
 
 | Term | Definition |
 |------|------------|

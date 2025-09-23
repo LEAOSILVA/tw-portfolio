@@ -1,61 +1,79 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Release notes
 
-Here’s a sample of release notes from Sensedia Integrations, showing how product new features, improvements, and fixes are communicated to users.
+These release notes sample highlight Sensedia Integrations’ new features, improvements, and fixes, clearly communicated for users. They demonstrate how structured, user-focused documentation keeps users informed, and supports effective use of the product.
 
-Originally published at [Sensedia Docs | Integrations | Release Notes](https://docs.sensedia.com/en/integrations-guide/Latest/release-notes.html)
-
-## September 2, 2025
+<details>
+  <summary>September 02, 2025</summary>
 
 **Improvement**
 
-- If the user enters spaces in the name of a query parameter in REST connectors, the system will display a message indicating that space is an invalid character (Diagram-type flows).
+- **Error message: invalid character**  
 
-## August 29, 2025
+  If the user enters space in the name of a query parameter in REST connectors, the system will display a message indicating that space is an invalid character (diagram-type flows).
+</details>
+
+
+<details>
+  <summary>August 29, 2025</summary>
 
 **New feature**
 
 - **Release creation and management**  
+
   The integration deployment process now requires creating a release, which represents a specific version of your integration flow.  
   With this feature, you can control and manage different versions of your integrations, ensuring greater organization and traceability in deployments.  
 
   Check out [how to create releases](https://docs.sensedia.com/en/integrations-guide/Latest/flow-deploy.html).
+</details>
 
----
 
-## August 28, 2025
-
-**Fix**
-
-- We fixed an error that occurred when using the EIP **PollEnrich**.  
-  When trying to create an endpoint from the URI, Camel could not find the responsible component, and the error was raised after deployment, when starting the flow's execution.
-
----
-
-## August 21, 2025
+<details>
+  <summary>August 28, 2025</summary>
 
 **Fix**
 
-- We fixed an error that occurred during the deployment of flows that used the EIP **unmarshal** and the **PGP** data format.
+* **Deployment error in flows with the EIP PollEnrich** 
 
----
+  We fixed an error that occurred when using the EIP **PollEnrich**.  
+  When trying to create an endpoint from the URI, Camel could not find the responsible component, and the error was raised after deployment, when executing the flow.
+</details>
 
-## August 14, 2025
+
+<details>
+  <summary>August 21, 2025</summary>
+
+**Fix**
+
+- **Deployment error in flows with the EIP unmarshal and PGP data format** 
+
+  We fixed an error that occurred during the deployment of flows that used the EIP **unmarshal** and the **PGP** data format.
+</details>
+
+<details>
+  <summary>August 14, 2025</summary>
 
 **New feature**
 
 - **New component released**  
+
   You can now use **Google Cloud Storage** in your integrations, making it easier to store and retrieve objects in Google Cloud buckets.  
 
   Check all available [components](https://docs.sensedia.com/en/integrations-guide/Latest/apache-camel-components.html) and [triggers](https://docs.sensedia.com/en/integrations-guide/Latest/source-triggers.html).
 
----
+</details>
 
-## August 05, 2025
+
+<details>
+  <summary>August 05, 2025</summary>
 
 **Fix**
 
-- We fixed an error that occurred when using **REST connectors** in **Diagram-type flows**, where the request responses were sent to Analytics without the attributes that link the log message to the specific `runtimeExecutionId`, making it difficult to visualize errors in the executions.
+- **REST connector logging issue in diagram-type flows** 
+
+    We fixed an error that occurred when using **REST connectors**, in which the request responses were sent to Analytics without the attributes that link the log message to the specific `runtimeExecutionId`. This caused difficulties to visualize errors in the executions.
+</details>
+

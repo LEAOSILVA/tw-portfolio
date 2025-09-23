@@ -1,7 +1,7 @@
 {
   "id": "docs-example/scripts",
-  "title": "Scripts",
-  "description": "I design trainings accessible to both customers and employees through the company’s learning platform.",
+  "title": "Script",
+  "description": "The excerpt below comes from a training session that walks users through the creation of an integration flow, guiding them step by step from start to finish. It includes detailed configurations for each step, along with the corresponding logs and traces.",
   "source": "@site/docs/docs-example/scripts.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/scripts",
@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/scripts.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 5,
   "frontMatter": {
-    "sidebar_position": 4
+    "sidebar_position": 5
   },
   "sidebar": "docsSidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/tw-portfolio/docs/docs-example/release-notes"
   },
   "next": {
-    "title": "Tutorials",
+    "title": "Tutorial",
     "permalink": "/tw-portfolio/docs/docs-example/tutorials"
   }
 }

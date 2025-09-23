@@ -1,10 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Scripts
-
-I design trainings accessible to both customers and employees through the company’s learning platform.
+# Script
 
 The excerpt below comes from a training session that walks users through the creation of an integration flow, guiding them step by step from start to finish. It includes detailed configurations for each step, along with the corresponding logs and traces.
 
@@ -13,22 +11,22 @@ While the script itself is not publicly available, it serves as a powerful tool 
 For clarity, the flow steps are summarized below. We will focus on **Step 5: Data transformation with JSONata**.
 
 1. **Order received with a REST trigger**  
-   The flow starts with a POST request when an order is received, including a client identification code (`ClientID`).
+   The flow starts with a POST request. The request includes a client identification code (`ClientID`).  
 
 2. **Information retrieval**  
-   Additional details about the order are then fetched using the `ClientID` as a parameter in an internal purchasing endpoint.
+   The system uses the `ClientID` to fetch additional order details from an internal purchasing endpoint.  
 
 3. **Data transformation with JSONata**  
-   A **JSONata** expression is applied to structure the received data and ensure it is in the correct format for the next step.
+   A **JSONata** expression restructures the data and formats it for the next step.  
 
 4. **Payment processing via an external endpoint**  
-   Once the data is properly formatted, it is sent to an external endpoint to execute the payment.
+   The system sends the payment request to an external endpoint and processes the response.  
 
 5. **Data transformation with JSONata**  
-   The returned data is structured again using JSONata, preparing it for the final steps of the flow.
+   JSONata restructures the returned data again, preparing it for the final steps.  
 
 6. **Status update and confirmation**  
-   After payment is completed, the order status is updated in an internal endpoint to keep the system synchronized, and a payment confirmation is received.
+   The system updates the order status in an internal endpoint. It also receives and records the payment confirmation.  
 
 :::note[NOTE]    
 The training sessions are recorded in Portuguese. The script below is a translated version. 
@@ -44,13 +42,13 @@ The training sessions are recorded in Portuguese. The script below is a translat
 Hi, everyone!  
 In this step, we will perform another data transformation using JSONata.
 
-**Body transformation with JSONata**
+### Body transformation with JSONata
 
 We will add a **SetBody** step to combine the result of the payment processing with the **ClientID**.  
 
-To redefine the message body, we will select the **Simple** language again in the expression field, which allows referencing headers, properties, the message body, and performing simple operations such as concatenation, conditions, and transformations.
+To redefine the message body, we will select the **Simple** language again in the expression field. It allows referencing headers, properties, the message body, and performing simple operations such as concatenation, conditions, and transformations.
 
-```yaml
+```yaml title="Using Simple language"
 - setBody:
          expression:
            simple:
@@ -59,24 +57,24 @@ To redefine the message body, we will select the **Simple** language again in th
 
 Essentially, we are creating a JSON that combines:
 
-- The ClientID stored in the `ClientID` property, and
-- The status coming from the original body.
+- The ClientID stored in the `ClientID` property
+- Anda the status coming from the original body.
 
-**Adding a log step**
+### Adding a log step
 
-Next, we add a Log step to record the result of the combined information, using the prefix “Concatenation” to indicate that the body data has been concatenated.
+Next, we add a Log step to record the result of the combined information. We will used the prefix “Concatenation” to indicate that the body data has been concatenated.
 
-```yaml
+```yaml title="Adding the log step"
      - log:
          message: CONCATENATION - ${body}
 ```
-**Creating a resource**
+### Creating a resource
 
 In the Source Code tab, we will create a resource with the transformation instructions, which will be called `statusPayload.jsonata`.
 
 Click **+** next to “Resources” and add the transformation instructions:
 
-```json
+```json title="Creating the transformation instruction in JSONata"
 {
     "ClientID":ClientID,
     "Status":status.status
@@ -86,7 +84,7 @@ This JSONata expression creates a new JSON object by extracting and organizing v
 
 For example, if the original JSON is:
 
-```json
+```json title="Example"
 {
   "ClientID": "1",
   "status": {
@@ -96,7 +94,7 @@ For example, if the original JSON is:
 ```
 The JSONata expression produces the following result:
 
-```json
+```json title="Result"
 {
   "ClientID": "1",
   "Status": "Paid"
@@ -106,22 +104,22 @@ In other words, the expression simply reorganizes the data, keeping the `ClientI
 
 We assign the name and extension `statusPayload.jsonata` and save the file.
 
-**Using the JSONata component**
+### Using the JSONata component
 
 After creating the resource with the transformation instructions, we will create a step using the JSONata component.
 
 Remember that the `statusPayload.jsonata` file is referenced in the `classpath`.
 
-**Adding another log step**
+### Adding another log step
 
-Now we add a Log step to record the body from the previous step, using the prefix status payload.
+Now we add a Log step to record the body from the previous step. We will use the prefix "PAYLOAD STATUS".
 
-```yaml
+```yaml title="Adding the log step"
      - log:
          message: 'PAYLOAD STATUS - ${body}'
 
 ```
-**Checking logs and traces**
+### Checking logs and traces
 
 Finally, we will check the logs and traces for this step.
 
