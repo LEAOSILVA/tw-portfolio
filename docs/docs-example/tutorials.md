@@ -58,7 +58,7 @@ Access **Events Hub** and perform the following actions:
 
      > **Event publication URL**  
      >  
-     > Each topic creates a publication URL, which must be configured in the Custom JS interceptor of the [data APIs](#data-api).  
+     > Each topic creates a publication URL, which must be configured in the Custom JS interceptor of the data APIs.  
      >  
      > See an example of a URL created by the Events Hub:  
      > ![Example of MQD topic URL](./img/example-url.png)
@@ -107,7 +107,7 @@ Access **Events Hub** and perform the following actions:
 
    a. Select the MQD Handler, then select the client topics. Enable the **Publish** option.
 
-   b. Fill in the **Subscriber URL** field with the endpoint of the [MQD subscriber API](#mqd-subscriber-api).
+   b. Fill in the **Subscriber URL** field with the endpoint of the MQD subscriber API.
 
    c. Add the status code `200` in the corresponding field.
 
