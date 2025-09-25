@@ -28,6 +28,18 @@ All endpoints require Bearer authentication with JWT. Include the token in the `
 
 `Authorization: Bearer <your_jwt_token>`
 
+## Usage limits 
+
+To optimize the use of API Analytics and reduce potential issues, the following limits are in place:
+
+- Response payload size: 6 MB
+- Response timeout: 29 seconds
+- Rate limit: 600 requests per second
+
+:::note[NOTE]
+This threshold may be adjusted at any time without prior notice to maintain service stability and prevent misuse.
+:::
+
 ## Resources
 
 You can manage three resources using the POST and GET methods: 
