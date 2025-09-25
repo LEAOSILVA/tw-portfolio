@@ -14,6 +14,7 @@ const AboutMeLinks = [
 ];
 
 const DocsLinks = [
+  { title: 'APIs', href: '/docs/docs-example/api' },
   { title: 'FAQs', href: '/docs/docs-example/faqs' },
   { title: 'Feature Spec', href: '/docs/docs-example/feature-spec' },
   { title: 'Glossary', href: '/docs/docs-example/glossary' },

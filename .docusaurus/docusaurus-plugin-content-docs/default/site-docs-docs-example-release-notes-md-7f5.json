@@ -1,7 +1,7 @@
 {
   "id": "docs-example/release-notes",
   "title": "Release notes",
-  "description": "These release notes sample highlight Sensedia Integrations’ new features, improvements, and fixes, clearly communicated for users. They demonstrate how structured, user-focused documentation keeps users informed, and supports effective use of the product.",
+  "description": "These release notes highlight Sensedia Integrations’ new features, improvements, and fixes, clearly communicated for users. They demonstrate how structured, user-focused documentation keeps users informed, and supports effective use of the product.",
   "source": "@site/docs/docs-example/release-notes.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/release-notes",

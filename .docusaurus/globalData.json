@@ -26,6 +26,11 @@
               "sidebar": "aboutMeSidebar"
             },
             {
+              "id": "docs-example/api",
+              "path": "/tw-portfolio/docs/docs-example/api",
+              "sidebar": "docsSidebar"
+            },
+            {
               "id": "docs-example/faqs",
               "path": "/tw-portfolio/docs/docs-example/faqs",
               "sidebar": "docsSidebar"
@@ -71,8 +76,8 @@
             },
             "docsSidebar": {
               "link": {
-                "path": "/tw-portfolio/docs/docs-example/faqs",
-                "label": "docs-example/faqs"
+                "path": "/tw-portfolio/docs/docs-example/api",
+                "label": "docs-example/api"
               }
             }
           }

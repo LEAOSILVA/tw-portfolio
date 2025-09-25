@@ -1,7 +1,7 @@
 {
   "id": "docs-example/api.md",
   "title": "API",
-  "description": "This documentation was created for the purpose of showing an example of API documentation. It is based on the API Swagger available at Sensedia Analytics API.",
+  "description": "Overview",
   "source": "@site/docs/docs-example/api.md.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/api.md",
