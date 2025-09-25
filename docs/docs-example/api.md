@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# APIs
+# API
 
 ## Overview
 
@@ -27,6 +27,10 @@ The **Query DSL (Domain Specific Language)** is OpenSearch’s JSON-based langua
 All endpoints require Bearer authentication with JWT. Include the token in the `Authorization` header:
 
 `Authorization: Bearer <your_jwt_token>`
+
+:::note[NOTE]
+Check our documentation on [how to create your access token](https://docs.sensedia.com/en/api-platform-guide/4.14.x.x/access-tokens/creating-access-tokens.html).
+:::
 
 ## Usage limits 
 
@@ -174,6 +178,10 @@ Example response. Actual response may vary.
 
 - `/v1/products/{product_name}/traces/query` 
 Retrieves trace data from OpenSearch using Query DSL.
+
+:::tip[TIP]
+See [how to get the total calls for the day with the endpoint `traces/query`](https://docs.sensedia.com/en/analytics-guide/Latest/faqs-traces-query.html).
+:::
 
 ##### Parameters
 
