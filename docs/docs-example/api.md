@@ -6,6 +6,10 @@ sidebar_position: 1
 
 ## Overview
 
+:::note[NOTE]
+Open API Specification available at [Sensedia Analytics API](https://portal-apis.sensedia.com/api-portal/en/content/sensedia-analytics-apis).
+:::
+
 **Sensedia Analytics** is a solution designed to help you **manage metrics and export traces efficiently**.  
 
 With the metrics and database provided by Sensedia Analytics, you can create custom dashboards and tailor how you search and export trace data.  
@@ -76,7 +80,7 @@ Retrieves calls data from OpenSearch using Query DSL.
 ##### Responses
 
 :::note[NOTE]
-Except for 200 response, all examples were taken from the API Swagger.
+Except for 200 response, all examples were taken from the Open API Specification.
 :::
 
 **200**
@@ -180,7 +184,7 @@ Retrieves trace data from OpenSearch using Query DSL.
 ##### Responses
 
 :::note[NOTE]
-Except for 200 response, all examples were taken from the API Swagger.
+Except for 200 response, all examples were taken from the Open API Specification.
 :::
 
 **200**
@@ -305,7 +309,7 @@ Retrieves individual traces by ID.
 ##### Responses
 
 :::note[NOTE]
-All examples were taken from the API Swagger.
+All examples were taken from the Open API Specification.
 :::
 
 **200**
@@ -481,7 +485,7 @@ Returns logs from a product and a tenant id. It allows several filters.|
 ##### Responses
 
 :::note[NOTE]
-All examples were taken from the API Swagger.
+All examples were taken from the Open API Specification.
 :::
 
 **200**
