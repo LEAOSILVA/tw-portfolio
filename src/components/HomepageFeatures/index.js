@@ -4,7 +4,6 @@ import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
-// Importando SVGs como React Components
 import PersonalInfoIcon from '@site/static/img/personal-info.svg';
 import FileSearchIcon from '@site/static/img/file-search.svg';
 
@@ -21,48 +20,87 @@ const DocsLinks = [
   { title: 'Release Notes', href: '/docs/docs-example/release-notes' },
   { title: 'Script', href: '/docs/docs-example/scripts' },
   { title: 'Tutorial', href: '/docs/docs-example/tutorials' },
-  { title:'Use case', href: '/docs/docs-example/use-case' },
+  { title: 'Use case', href: '/docs/docs-example/use-case' },
   { title: 'UX Writing', href: '/docs/docs-example/ux-writing' },
 ];
 
 function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row" style={{ alignItems: 'center' }}>
-          {/* Coluna 1: imagem personal-info */}
-          <div className={clsx('col col--3', 'text--center')}>
-            <PersonalInfoIcon className={styles.featureSvg} role="img" />
-          </div>
 
-          {/* Coluna 2: About me e links */}
-          <div className={clsx('col col--3')}>
-            <Heading as="h3">About me</Heading>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              {AboutMeLinks.map((item, idx) => (
-                <li key={idx} style={{ margin: '6px 0' }}>
-                  <Link to={item.href}>{item.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+      {/* About Me Section */}
+      <div className="container" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+        <PersonalInfoIcon className={styles.featureSvg} role="img" style={{ width: '180px', height: '180px' }} />
+        <Heading as="h2" style={{ marginTop: '1rem' }}>About Me</Heading>
 
-          {/* Coluna 3: imagem file-search */}
-          <div className={clsx('col col--3', 'text--center')}>
-            <FileSearchIcon className={styles.featureSvg} role="img" />
-          </div>
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'center',
+            gap: '1.5rem',
+            marginTop: '2rem',
+            flexWrap: 'wrap',
+          }}
+        >
+          {AboutMeLinks.map((item, idx) => (
+            <Link
+              key={idx}
+              to={item.href}
+              style={{
+                display: 'block',
+                padding: '1.5rem',
+                width: '220px',
+                backgroundColor: '#f7f7f7',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                color: '#000',
+                boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                transition: 'transform 0.2s',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.transform = 'translateY(-4px)')}
+              onMouseLeave={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
+            >
+              <Heading as="h4">{item.title}</Heading>
+            </Link>
+          ))}
+        </div>
+      </div>
 
-          {/* Coluna 4: links para páginas */}
-          <div className={clsx('col col--3')}>
-            <Heading as="h3">Docs</Heading>
-            <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              {DocsLinks.map((item, idx) => (
-                <li key={idx} style={{ margin: '6px 0' }}>
-                  <Link to={item.href}>{item.title}</Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+      {/* Docs Section */}
+      <div className="container" style={{ textAlign: 'center', marginBottom: '3rem' }}>
+        <FileSearchIcon className={styles.featureSvg} role="img" style={{ width: '180px', height: '180px' }} />
+        <Heading as="h2" style={{ marginTop: '1rem' }}>Docs</Heading>
+
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+            gap: '1.5rem',
+            marginTop: '2rem',
+            justifyItems: 'center',
+          }}
+        >
+          {DocsLinks.map((item, idx) => (
+            <Link
+              key={idx}
+              to={item.href}
+              style={{
+                display: 'block',
+                padding: '1.2rem',
+                width: '180px',
+                backgroundColor: '#f7f7f7',
+                borderRadius: '12px',
+                textDecoration: 'none',
+                color: '#000',
+                boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+                transition: 'transform 0.2s',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.transform = 'translateY(-4px)')}
+              onMouseLeave={(e) => (e.currentTarget.style.transform = 'translateY(0)')}
+            >
+              <Heading as="h5">{item.title}</Heading>
+            </Link>
+          ))}
         </div>
       </div>
     </section>
