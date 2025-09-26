@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/use-case",
+  "title": "Use case",
+  "description": "This use case demonstrates a real-world scenario in systems integrations for payment management. It provides clear guidance that helps customers understand the process and apply it effectively.",
+  "source": "@site/docs/docs-example/use-case.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/use-case",
+  "permalink": "/tw-portfolio/docs/docs-example/use-case",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/docs-example/use-case.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Tutorial",
+    "permalink": "/tw-portfolio/docs/docs-example/tutorials"
+  },
+  "next": {
+    "title": "UX writing",
+    "permalink": "/tw-portfolio/docs/docs-example/ux-writing"
+  }
+}

@@ -61,6 +61,11 @@
               "sidebar": "docsSidebar"
             },
             {
+              "id": "docs-example/use-case",
+              "path": "/tw-portfolio/docs/docs-example/use-case",
+              "sidebar": "docsSidebar"
+            },
+            {
               "id": "docs-example/ux-writing",
               "path": "/tw-portfolio/docs/docs-example/ux-writing",
               "sidebar": "docsSidebar"

@@ -21,6 +21,7 @@ const DocsLinks = [
   { title: 'Release Notes', href: '/docs/docs-example/release-notes' },
   { title: 'Script', href: '/docs/docs-example/scripts' },
   { title: 'Tutorial', href: '/docs/docs-example/tutorials' },
+  { title:'Use case', href: '/docs/docs-example/use-case' },
   { title: 'UX Writing', href: '/docs/docs-example/ux-writing' },
 ];
 

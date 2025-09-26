@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/tw-portfolio/docs',
-    component: ComponentCreator('/tw-portfolio/docs', '561'),
+    component: ComponentCreator('/tw-portfolio/docs', '0bf'),
     routes: [
       {
         path: '/tw-portfolio/docs',
-        component: ComponentCreator('/tw-portfolio/docs', 'b0a'),
+        component: ComponentCreator('/tw-portfolio/docs', 'f02'),
         routes: [
           {
             path: '/tw-portfolio/docs',
-            component: ComponentCreator('/tw-portfolio/docs', '1c5'),
+            component: ComponentCreator('/tw-portfolio/docs', '9d0'),
             routes: [
               {
                 path: '/tw-portfolio/docs/about-me/contact-information',
@@ -181,6 +181,12 @@ export default [
               {
                 path: '/tw-portfolio/docs/docs-example/tutorials',
                 component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials', '3e9'),
+                exact: true,
+                sidebar: "docsSidebar"
+              },
+              {
+                path: '/tw-portfolio/docs/docs-example/use-case',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/use-case', 'd76'),
                 exact: true,
                 sidebar: "docsSidebar"
               },
