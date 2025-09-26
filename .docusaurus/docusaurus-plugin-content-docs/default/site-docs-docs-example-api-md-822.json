@@ -1,7 +1,7 @@
 {
   "id": "docs-example/api",
-  "title": "APIs",
-  "description": "Overview",
+  "title": "API",
+  "description": "Sensedia Analytics API",
   "source": "@site/docs/docs-example/api.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/api",

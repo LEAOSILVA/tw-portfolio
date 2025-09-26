@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # API
 
-## Overview
+## Sensedia Analytics API
+
+### Overview
 
 :::note[NOTE]
 Open API Specification available at [Sensedia Analytics API](https://portal-apis.sensedia.com/api-portal/en/content/sensedia-analytics-apis).
@@ -22,7 +24,7 @@ The **Sensedia Analytics API** allows you to:
 
 The **Query DSL (Domain Specific Language)** is OpenSearch’s JSON-based language for defining searches. It allows you to create precise and complex queries, filter results, and aggregate data efficiently. Using Query DSL, you can perform searches such as full-text matching, phrase matching, range queries, and nested object queries, all structured in JSON, which the API accepts in POST requests for calls and traces.  
 
-## Authentication
+### Authentication
 
 All endpoints require Bearer authentication with JWT. Include the token in the `Authorization` header:
 
@@ -32,7 +34,7 @@ All endpoints require Bearer authentication with JWT. Include the token in the `
 Check our documentation on [how to create your access token](https://docs.sensedia.com/en/api-platform-guide/4.14.x.x/access-tokens/creating-access-tokens.html).
 :::
 
-## Usage limits 
+### Usage limits 
 
 To optimize the use of API Analytics and reduce potential issues, the following limits are in place:
 
@@ -44,7 +46,7 @@ To optimize the use of API Analytics and reduce potential issues, the following 
 This threshold may be adjusted at any time without prior notice to maintain service stability and prevent misuse.
 :::
 
-## Resources
+### Resources
 
 You can manage three resources using the POST and GET methods: 
 
@@ -73,7 +75,7 @@ Check out what each one of them represents and is used for:
 
 ##### Endpoint
 
--  `/v1/products/{product_name}/calls/query` 
+-  `analytics/v1/products/{product_name}/calls/query` 
 Retrieves calls data from OpenSearch using Query DSL.
 
 ##### Parameters
@@ -155,7 +157,7 @@ Example response. Actual response may vary.
 ```
 
 **401/403**      
-- Access error. 
+- Access error. Check your access token. 
 
 ```json
 {}
@@ -176,7 +178,7 @@ Example response. Actual response may vary.
 
 ##### Endpoint
 
-- `/v1/products/{product_name}/traces/query` 
+- `analytics/v1/products/{product_name}/traces/query` 
 Retrieves trace data from OpenSearch using Query DSL.
 
 :::tip[TIP]
@@ -298,7 +300,7 @@ Example response. Actual response may vary.
 ]
 ```
 **401/403**      
-- Access error. 
+- Access error. Check your access token. 
 
 ```json
 {}
@@ -314,9 +316,9 @@ Example response. Actual response may vary.
 ```
 #### GET
 
-###### Endpoint
+##### Endpoint
 
-- `/v1/products/{product_name}/traces/{trace_id}` 
+- `analytics/v1/products/{product_name}/traces/{trace_id}` 
 Retrieves individual traces by ID.
 
 ##### Parameters
@@ -456,7 +458,7 @@ All examples were taken from the Open API Specification.
 ]
 ```                                                                 
 **401 / 403**
-- Access error.   
+- Access error. Check your access token.
 
 ```json
 {}
@@ -477,7 +479,7 @@ All examples were taken from the Open API Specification.
 
 ##### Endpoint
 
-- `/v1/products/{product_name}/logs`
+- `analytics/v1/products/{product_name}/logs`
 Returns logs from a product and a tenant id. It allows several filters.| 
 
 ##### Parameters
