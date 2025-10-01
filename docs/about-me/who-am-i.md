@@ -2,14 +2,19 @@
 sidebar_position: 1
 ---
 
+
 # Who am I?
 
-**Hello! I’m Natalia Leão**.
 
-    
-Welcome to my corner of the web! 
+| ![Bio](/img/bio-red.png) |**Hello! I’m Natalia Leão**|
+|--------------------------|---------------------------|
+
+
+**Welcome to my corner of the web!** 
 
 Here, you’ll find information about me, my professional experience, and a portfolio showcasing samples of my work.
+
+--- 
 
 I’m a Technical Writer with **3+ years of experience** turning complex software into clear, accessible documentation.
 
@@ -19,6 +24,8 @@ My experience includes writing in multiple languages, **optimizing user experien
 
 I’m passionate about creating documentation that not only informs but also empowers users, helping them adopt products with confidence and ease.
 
+---
+
 **Core competencies**
 
 * Technical Documentation & Docs-as-Code 
@@ -26,6 +33,8 @@ I’m passionate about creating documentation that not only informs but also emp
 * Multilingual Content Creation
 * UX Writing & UI Content Optimization
 * Agile & Cross-Functional Collaboration
+
+--- 
 
 **Main tools and technologies**
 

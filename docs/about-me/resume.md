@@ -1,18 +1,19 @@
 ---
 sidebar_position: 2
 ---
-
 # Resume
 
 **Technical Writer**  
 **Sensedia | remote from Niterói, Rio de Janeiro**  
-*June 2022 – Present*  
+*Jun 2022 – Present*  
 
-- Led documentation strategy for an iPaaS solution, building all content from scratch using docs-as-code approach.
+- Contributed to the documentation of multiple SaaS products, ranging from access management to event-driven integrations and governance solutions, and created the documentation strategy for an iPaaS from scratch using a docs-as-code approach.
+
+- Led the initiative to migrate documentation from AsciiDoc to Markdown on the Technical Writing team’s side. Personally migrated the first sets of documentation, identified improvement opportunities for the project developer, and created a step-by-step tutorial enabling other technical writers to install the project and migrate their own documentation.
 
 - Led the implementation of the style and writing guide for technical writers, providing best practices and ensuring cohesive, high-quality documentation across products.
 
-- Designs a layered documentation structure that combines short tutorials, code examples (CAMEL YAML DSL), and feature descriptions to improve accessibility for both technical and non-technical audiences. 
+- Designs a layered documentation structure that combines short tutorials, code examples, and feature descriptions to improve accessibility for both technical and non-technical audiences. 
 
 - Collaborates daily with Product Managers, Designers, QAs, and Developers to ensure documentation aligned with Agile development cycles.
 
@@ -26,7 +27,7 @@ sidebar_position: 2
 
 **Terminology Fellow**  
 **World Intellectual Property Organization | Geneva, Switzerland**  
-*October 2021 – March 2022*  
+*Oct 2021 – Mar 2022*  
 
 - Entered approximately 700 technical terms into the WIPO PEARL termbase, conducting detailed research to ensure linguistic accuracy and terminological consistency across multiple fields.  
 - Delivered high-quality results within tight deadlines, earning exceptional performance evaluations from supervisors.  
@@ -36,7 +37,7 @@ sidebar_position: 2
 
 **Communication Analyst**  
 **Trench Rossi Watanabe | remote from São Paulo, São Paulo**  
-*August 2020 – November 2020*  
+*Aug 2020 – Nov 2020*  
 
 - Drafted, edited, and proofread RFPs and legal rankings formularies, ensuring alignment with brand guidelines and high linguistic precision, consistently meeting short deadlines and earning praise for dedication and professionalism.  
 - Managed and translated institutional web content and lawyer bios.  
@@ -45,23 +46,23 @@ sidebar_position: 2
 
 ## Previous experiences
 - **Business Development Assistant**  
-  *Chamber of Commerce Brazil-Canada | São Paulo, Brazil | July 2018 – August 2020*  
+  *Chamber of Commerce Brazil-Canada | São Paulo, Brazil | Jul 2018 – Aug 2020*  
 - **Commercial Assistant**  
-  *Ascensus Trading & Logistics | Joinville, Brazil | February 2017 – July 2018*  
+  *Ascensus Trading & Logistics | Joinville, Brazil | Feb 2017 – Jul 2018*  
 - **ESL Teacher**  
-  *Cultura Inglesa, Phil Young’s, British and America, CELIN | Curitiba and Joinville, Brazil | October 2008 – December 2015*  
+  *Cultura Inglesa, Phil Young’s, British and America, CELIN | Curitiba and Joinville, Brazil | Oct 2008 – Dec 2015*  
 
 ---
 
 ## Education
 
 - **Postgraduate Degree in Specialized Translation and Translation Tools**  
-  Instituto Politécnico do Porto | Porto, Portugal  (remote due to the COVID-19 pandemics)
-  *January 2021 – July 2021*  
+  Instituto Politécnico do Porto | Porto, Portugal  (remote due to the COVID-19 pandemics)  
+  *2021*  
 
 - **B.A. in English Studies**  
   Universidade Federal do Paraná | Curitiba, Brazil  
-  *March 2007 – April 2012*  
+  *2007 – 2012*  
 
 ---
 
@@ -95,7 +96,7 @@ sidebar_position: 2
 ## Volunteer experience
 
 **Translator and Proofreader**  
-- Magma Translation Agency (*July 2017 – December 2017*)  
-- Per Mondo Agency (*January 2017*)  
+- Magma Translation Agency (*2017*)  
+- Per Mondo Agency (*2017*)  
   - Translated and proofread various texts for NGOs.  
 

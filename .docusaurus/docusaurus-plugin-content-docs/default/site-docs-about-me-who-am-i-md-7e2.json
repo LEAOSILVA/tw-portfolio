@@ -1,7 +1,7 @@
 {
   "id": "about-me/who-am-i",
   "title": "Who am I?",
-  "description": "Hello! I’m Natalia Leão.",
+  "description": "| Bio |Hello! I’m Natalia Leão|",
   "source": "@site/docs/about-me/who-am-i.md",
   "sourceDirName": "about-me",
   "slug": "/about-me/who-am-i",
