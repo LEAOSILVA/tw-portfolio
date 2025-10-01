@@ -114,31 +114,31 @@ export default [
   },
   {
     path: '/tw-portfolio/docs',
-    component: ComponentCreator('/tw-portfolio/docs', '0bf'),
+    component: ComponentCreator('/tw-portfolio/docs', '6cb'),
     routes: [
       {
         path: '/tw-portfolio/docs',
-        component: ComponentCreator('/tw-portfolio/docs', 'f02'),
+        component: ComponentCreator('/tw-portfolio/docs', 'a07'),
         routes: [
           {
             path: '/tw-portfolio/docs',
-            component: ComponentCreator('/tw-portfolio/docs', '9d0'),
+            component: ComponentCreator('/tw-portfolio/docs', '780'),
             routes: [
               {
-                path: '/tw-portfolio/docs/about-me/contact-information',
-                component: ComponentCreator('/tw-portfolio/docs/about-me/contact-information', '032'),
+                path: '/tw-portfolio/docs/about-me/contact',
+                component: ComponentCreator('/tw-portfolio/docs/about-me/contact', '366'),
                 exact: true,
                 sidebar: "aboutMeSidebar"
               },
               {
-                path: '/tw-portfolio/docs/about-me/experience-education',
-                component: ComponentCreator('/tw-portfolio/docs/about-me/experience-education', '1b3'),
+                path: '/tw-portfolio/docs/about-me/resume',
+                component: ComponentCreator('/tw-portfolio/docs/about-me/resume', '37e'),
                 exact: true,
                 sidebar: "aboutMeSidebar"
               },
               {
-                path: '/tw-portfolio/docs/about-me/summary',
-                component: ComponentCreator('/tw-portfolio/docs/about-me/summary', 'f2f'),
+                path: '/tw-portfolio/docs/about-me/who-am-i',
+                component: ComponentCreator('/tw-portfolio/docs/about-me/who-am-i', 'ac8'),
                 exact: true,
                 sidebar: "aboutMeSidebar"
               },

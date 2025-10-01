@@ -1,0 +1,23 @@
+{
+  "id": "about-me/contact",
+  "title": "Contact",
+  "description": "I’d love to hear from you! Whether you have questions, collaboration ideas, or just want to say hello, feel free to reach out:",
+  "source": "@site/docs/about-me/contact.md",
+  "sourceDirName": "about-me",
+  "slug": "/about-me/contact",
+  "permalink": "/tw-portfolio/docs/about-me/contact",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/about-me/contact.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "aboutMeSidebar",
+  "previous": {
+    "title": "Resume",
+    "permalink": "/tw-portfolio/docs/about-me/resume"
+  }
+}

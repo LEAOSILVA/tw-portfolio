@@ -4,20 +4,17 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+  padding: 0;             /* remove o padding padrão do header */
+  margin: 0;              /* remove margens */
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;       /* evita scroll indesejado se o banner for grande */
 }
+
+.heroBanner img {
+  width: 100%;
+  height: auto;           /* mantém proporção da imagem */
+  display: block;         /* remove espaçamento extra abaixo da imagem */
+}
+

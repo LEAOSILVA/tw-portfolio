@@ -64,12 +64,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/banner-tw.png',
+      image: 'img/banner2-tw.png',
       navbar: {
         title: 'My portfolio',
         logo: {
         alt: 'My portfolio logo',
-        src: 'img/icone-tw.png',
+        src: 'img/logo-tw.png',
         // Se quiser versão dark:
         // srcDark: 'img/banner-tw-dark.png',
       },
@@ -88,34 +88,36 @@ const config = {
     },
   ],
 },
-      footer: {
-        style: 'dark',
+footer: {
+        style: 'light',
         links: [
           {
-            items: [
-              {
-                label: 'Contact Information',
-                to: '/docs/about-me/contact-information',
-              },
-            ],
-          },
-          {
-            items: [
-              {
-                html: `
-                  <a href="https://www.linkedin.com/in/natalia-le%C3%A3o-494ba223/" 
-                     target="_blank" 
-                     rel="noopener noreferrer" 
-                     style="display: flex; justify-content: flex-end; align-items: center;">
-                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" 
-                         alt="LinkedIn" 
-                         width="24" 
-                         height="24" 
-                         style="margin-left: 8px;" />
-                  </a>
-                `,
-              },
-            ],
+items: [
+        {
+          html: `
+            <div style="display: flex; justify-content: flex-end; align-items: center; gap: 12px;">
+              <a href="https://www.linkedin.com/in/natalia-le%C3%A3o-494ba223/" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     width="24" height="24" 
+                     viewBox="0 0 24 24" 
+                     fill="black">
+                  <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4v12h-4V8zm7 0h3.6v1.71h.05c.5-.95 1.72-1.96 3.55-1.96 3.8 0 4.5 2.5 4.5 5.75V20h-4v-5.25c0-1.25-.02-2.85-1.74-2.85-1.74 0-2 1.35-2 2.75V20h-4V8z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/LEAOSILVA/tw-portfolio" 
+                 target="_blank" 
+                 rel="noopener noreferrer">
+                <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" 
+                     alt="GitHub" 
+                     width="24" 
+                     height="24" />
+              </a>
+            </div>
+          `,
+        },
+      ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Natalia Leão. Built with Docusaurus.`,
@@ -126,5 +128,4 @@ const config = {
       },
     }),
 };
-
 export default config;

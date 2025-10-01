@@ -8,21 +8,21 @@
           "label": "Next",
           "isLast": true,
           "path": "/tw-portfolio/docs",
-          "mainDocId": "about-me/summary",
+          "mainDocId": "about-me/who-am-i",
           "docs": [
             {
-              "id": "about-me/contact-information",
-              "path": "/tw-portfolio/docs/about-me/contact-information",
+              "id": "about-me/contact",
+              "path": "/tw-portfolio/docs/about-me/contact",
               "sidebar": "aboutMeSidebar"
             },
             {
-              "id": "about-me/experience-education",
-              "path": "/tw-portfolio/docs/about-me/experience-education",
+              "id": "about-me/resume",
+              "path": "/tw-portfolio/docs/about-me/resume",
               "sidebar": "aboutMeSidebar"
             },
             {
-              "id": "about-me/summary",
-              "path": "/tw-portfolio/docs/about-me/summary",
+              "id": "about-me/who-am-i",
+              "path": "/tw-portfolio/docs/about-me/who-am-i",
               "sidebar": "aboutMeSidebar"
             },
             {
@@ -75,8 +75,8 @@
           "sidebars": {
             "aboutMeSidebar": {
               "link": {
-                "path": "/tw-portfolio/docs/about-me/summary",
-                "label": "about-me/summary"
+                "path": "/tw-portfolio/docs/about-me/who-am-i",
+                "label": "about-me/who-am-i"
               }
             },
             "docsSidebar": {

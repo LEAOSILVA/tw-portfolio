@@ -1,0 +1,23 @@
+{
+  "id": "about-me/who-am-i",
+  "title": "Who am I?",
+  "description": "Hello! I’m Natalia Leão.",
+  "source": "@site/docs/about-me/who-am-i.md",
+  "sourceDirName": "about-me",
+  "slug": "/about-me/who-am-i",
+  "permalink": "/tw-portfolio/docs/about-me/who-am-i",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/about-me/who-am-i.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "aboutMeSidebar",
+  "next": {
+    "title": "Resume",
+    "permalink": "/tw-portfolio/docs/about-me/resume"
+  }
+}

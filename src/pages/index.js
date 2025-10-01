@@ -1,33 +1,25 @@
+import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import Banner from '@site/static/img/banner-tw2.png'; // caminho para a imagem
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-<header className={clsx('hero hero--primary', styles.heroBanner)}>
-  <div className="container">
-    <Heading as="h1" className="hero__title">
-      {siteConfig.title}
-    </Heading>
-    <p className="hero__subtitle">{siteConfig.tagline}</p>
-    <p className="hero__subtitle">Technical Writer | UX Writer</p>
-   </div>
-</header>
+    <header className={clsx('hero', styles.heroBanner)}>
+      <img
+        src={Banner}
+        alt="Natalia Leão - Technical Writer | UX Writer"
+        style={{ width: '100%', height: 'auto' }}
+      />
+    </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title="Natalia Leão" description="Technical Writer | UX Writer">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
@@ -35,3 +27,4 @@ export default function Home() {
     </Layout>
   );
 }
+
