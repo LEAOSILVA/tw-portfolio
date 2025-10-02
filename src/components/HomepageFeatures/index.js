@@ -6,6 +6,7 @@ import styles from './styles.module.css';
 // Importando SVGs como React Components
 import PersonalInfoIcon from '@site/static/img/personal-info.svg';
 import FileSearchIcon from '@site/static/img/file-search.svg';
+import BlogIcon from '@site/static/img/blog.svg';
 
 function HomepageFeatures() {
   return (

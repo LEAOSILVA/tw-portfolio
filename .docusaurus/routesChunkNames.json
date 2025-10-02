@@ -249,6 +249,12 @@
     },
     "content": "content---tw-portfolio-markdown-page-393-e7c"
   },
+  "/tw-portfolio/search-aad": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-searchc-14-945"
+    }
+  },
   "/tw-portfolio/docs-6cb": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {

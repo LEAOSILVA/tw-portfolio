@@ -89,6 +89,10 @@ export default {
           "sidebarId": "docsSidebar",
           "position": "left",
           "label": "Docs"
+        },
+        {
+          "type": "search",
+          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -99,7 +103,7 @@ export default {
         {
           "items": [
             {
-              "html": "\n            <div style=\"display: flex; justify-content: flex-end; align-items: center; gap: 12px;\">\n              <a href=\"https://www.linkedin.com/in/natalia-le%C3%A3o-494ba223/\" \n                 target=\"_blank\" \n                 rel=\"noopener noreferrer\">\n                <svg xmlns=\"http://www.w3.org/2000/svg\" \n                     width=\"24\" height=\"24\" \n                     viewBox=\"0 0 24 24\" \n                     fill=\"black\">\n                  <path d=\"M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4v12h-4V8zm7 0h3.6v1.71h.05c.5-.95 1.72-1.96 3.55-1.96 3.8 0 4.5 2.5 4.5 5.75V20h-4v-5.25c0-1.25-.02-2.85-1.74-2.85-1.74 0-2 1.35-2 2.75V20h-4V8z\"/>\n                </svg>\n              </a>\n              <a href=\"https://github.com/LEAOSILVA/tw-portfolio\" \n                 target=\"_blank\" \n                 rel=\"noopener noreferrer\">\n                <img src=\"https://cdn-icons-png.flaticon.com/512/25/25231.png\" \n                     alt=\"GitHub\" \n                     width=\"24\" \n                     height=\"24\" />\n              </a>\n            </div>\n          "
+              "html": "\n                  <div style=\"display: flex; justify-content: flex-end; align-items: center; gap: 12px;\">\n                    <a href=\"https://www.linkedin.com/in/natalia-le%C3%A3o-494ba223/\" \n                       target=\"_blank\" \n                       rel=\"noopener noreferrer\">\n                      <svg xmlns=\"http://www.w3.org/2000/svg\" \n                           width=\"24\" height=\"24\" \n                           viewBox=\"0 0 24 24\" \n                           fill=\"black\">\n                        <path d=\"M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4v12h-4V8zm7 0h3.6v1.71h.05c.5-.95 1.72-1.96 3.55-1.96 3.8 0 4.5 2.5 4.5 5.75V20h-4v-5.25c0-1.25-.02-2.85-1.74-2.85-1.74 0-2 1.35-2 2.75V20h-4V8z\"/>\n                      </svg>\n                    </a>\n                    <a href=\"https://github.com/LEAOSILVA/tw-portfolio\" \n                       target=\"_blank\" \n                       rel=\"noopener noreferrer\">\n                      <img src=\"https://cdn-icons-png.flaticon.com/512/25/25231.png\" \n                           alt=\"GitHub\" \n                           width=\"24\" \n                           height=\"24\" />\n                    </a>\n                  </div>\n                "
             }
           ],
           "title": null
@@ -310,6 +314,14 @@ export default {
           }
         }
       ]
+    },
+    "algolia": {
+      "appId": "QIC0MAEMBM",
+      "apiKey": "3653422e2a8f855b81fb68c6561cee85",
+      "indexName": "natalia-tw-portfolio",
+      "contextualSearch": true,
+      "searchParameters": {},
+      "searchPagePath": "search"
     },
     "colorMode": {
       "defaultMode": "light",
