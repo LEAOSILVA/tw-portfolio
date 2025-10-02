@@ -1,4 +1,4 @@
-// @ts-check
+/// @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
@@ -10,18 +10,15 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Natalia Leão',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
-  // Set the production url of your site here
   url: 'https://LEAOSILVA.github.io',
   baseUrl: '/tw-portfolio/',
 
-  // GitHub pages deployment config.
-  organizationName: 'LEAOSILVA', // Usually your GitHub org/user name.
-  projectName: 'tw-portfolio', // Usually your repo name.
+  organizationName: 'LEAOSILVA',
+  projectName: 'tw-portfolio',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
@@ -70,24 +67,22 @@ const config = {
         logo: {
           alt: 'My portfolio logo',
           src: 'img/logo-tw.png',
-          // Se quiser versão dark:
-          // srcDark: 'img/banner-tw-dark.png',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'aboutMeSidebar', // conecta ao sidebar about-me
+            sidebarId: 'aboutMeSidebar',
             position: 'left',
             label: 'About Me',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'docsSidebar', // conecta ao sidebar docs-example
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Docs',
           },
           {
-            type: 'search', // 🔍 botão de busca no header
+            type: 'search',
             position: 'right',
           },
         ],
@@ -131,16 +126,25 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
 
-      // 👇 Configuração Algolia
+      // Configuração Algolia
       algolia: {
         appId: 'QIC0MAEMBM',
         apiKey: '3653422e2a8f855b81fb68c6561cee85', // Search-Only API Key
         indexName: 'natalia-tw-portfolio',
       },
+
+      // Meta tag de verificação do Algolia
+      metadata: [
+        {
+          name: 'algolia-site-verification',
+          content: '7CF9FE6EF33631F8',
+        },
+      ],
     }),
 };
 
 export default config;
+
 
 
 
