@@ -76,10 +76,6 @@ export default {
           "sidebarId": "docsSidebar",
           "position": "left",
           "label": "Docs"
-        },
-        {
-          "type": "search",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -292,14 +288,6 @@ export default {
           }
         }
       ]
-    },
-    "algolia": {
-      "appId": "QIC0MAEMBM",
-      "apiKey": "3653422e2a8f855b81fb68c6561cee85",
-      "indexName": "new-attempt-portfolio",
-      "contextualSearch": true,
-      "searchParameters": {},
-      "searchPagePath": "search"
     },
     "colorMode": {
       "defaultMode": "light",

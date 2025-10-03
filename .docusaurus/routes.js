@@ -113,11 +113,6 @@ export default [
     exact: true
   },
   {
-    path: '/tw-portfolio/search',
-    component: ComponentCreator('/tw-portfolio/search', 'aad'),
-    exact: true
-  },
-  {
     path: '/tw-portfolio/docs',
     component: ComponentCreator('/tw-portfolio/docs', '6cb'),
     routes: [

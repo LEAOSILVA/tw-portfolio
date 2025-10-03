@@ -25,7 +25,6 @@ const config = {
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
           sidebarPath: './sidebars.js',
@@ -60,10 +59,7 @@ const config = {
           position: 'left',
           label: 'Docs',
         },
-        {
-          type: 'search',
-          position: 'right',
-        },
+        // 🔹 removido o campo de busca
       ],
     },
     footer: {
@@ -74,17 +70,11 @@ const config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-
-    // ✅ Configuração Algolia movida para o lugar certo
-    algolia: {
-      appId: 'QIC0MAEMBM',
-      apiKey: '3653422e2a8f855b81fb68c6561cee85', // Search-only API Key
-      indexName: 'new-attempt-portfolio',
-    },
   },
 };
 
 export default config;
+
 
 
 
