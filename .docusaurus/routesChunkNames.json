@@ -1,283 +1,326 @@
 {
-  "/tw-portfolio/blog-d5c": {
-    "__comp": "a6aa9e1f",
+  "/tw-portfolio/__docusaurus/debug-62e": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
+    }
+  },
+  "/tw-portfolio/__docusaurus/debug/config-017": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
+    }
+  },
+  "/tw-portfolio/__docusaurus/debug/content-f44": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
     },
-    "sidebar": "814f3328",
+    "__props": "__props---tw-portfolio-docusaurus-debug-contentb-7-e-abd"
+  },
+  "/tw-portfolio/__docusaurus/debug/globalData-3ec": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
+    }
+  },
+  "/tw-portfolio/__docusaurus/debug/metadata-0f5": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
+    }
+  },
+  "/tw-portfolio/__docusaurus/debug/registry-a05": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
+    }
+  },
+  "/tw-portfolio/__docusaurus/debug/routes-b98": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-docusaurus-debugb-38-c24"
+    }
+  },
+  "/tw-portfolio/blog-d5c": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---tw-portfolio-blog-369-023"
+    },
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---tw-portfolio-blog-766-604"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---tw-portfolio-blogf-4-f-567"
       },
       {
-        "content": "8717b14a"
+        "content": "content---tw-portfolio-blog-871-779"
       },
       {
-        "content": "925b3f96"
+        "content": "content---tw-portfolio-blog-925-630"
       }
     ],
-    "__props": "72ba4da7"
+    "__props": "__props---tw-portfolio-blog-72-b-8bb"
   },
   "/tw-portfolio/blog/archive-e47": {
-    "__comp": "9e4087bc",
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "__props": "f35fd76c"
+    "__props": "__props---tw-portfolio-blog-archivef-35-6d6"
   },
   "/tw-portfolio/blog/authors-3aa": {
-    "__comp": "621db11d",
+    "__comp": "__comp---theme-blog-pages-blog-authors-list-page-621-70c",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
-    "__props": "d3b4cdef"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "__props": "__props---tw-portfolio-blog-authorsd-3-b-59b"
   },
   "/tw-portfolio/blog/authors/all-sebastien-lorber-articles-7ef": {
-    "__comp": "33fc5bb8",
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---tw-portfolio-blog-766-604"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---tw-portfolio-blogf-4-f-567"
       },
       {
-        "content": "925b3f96"
+        "content": "content---tw-portfolio-blog-925-630"
       }
     ],
-    "sidebar": "814f3328",
-    "__props": "ae04bb33"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "__props": "__props---tw-portfolio-blog-authors-all-sebastien-lorber-articlesae-0-645"
   },
   "/tw-portfolio/blog/authors/yangshun-fd8": {
-    "__comp": "33fc5bb8",
+    "__comp": "__comp---theme-blog-pages-blog-authors-posts-page-33-f-bd5",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---tw-portfolio-blog-766-604"
       },
       {
-        "content": "8717b14a"
+        "content": "content---tw-portfolio-blog-871-779"
       },
       {
-        "content": "925b3f96"
+        "content": "content---tw-portfolio-blog-925-630"
       }
     ],
-    "sidebar": "814f3328",
-    "__props": "1d2c692a"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "__props": "__props---tw-portfolio-blog-authors-yangshun-1-d-2-0d8"
   },
   "/tw-portfolio/blog/first-blog-post-612": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "content": "content---tw-portfolio-blog-first-blog-poste-27-00e"
   },
   "/tw-portfolio/blog/long-blog-post-0d3": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
-    "content": "73664a40"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "content": "content---tw-portfolio-blog-long-blog-post-736-2ee"
   },
   "/tw-portfolio/blog/mdx-blog-post-a59": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
-    "content": "59362658"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "content": "content---tw-portfolio-blog-mdx-blog-post-593-dd4"
   },
   "/tw-portfolio/blog/tags-393": {
-    "__comp": "01a85c17",
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
-    "__props": "7b9b35c7"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "__props": "__props---tw-portfolio-blog-tags-7-b-9-161"
   },
   "/tw-portfolio/blog/tags/docusaurus-11b": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---tw-portfolio-blog-766-604"
       },
       {
-        "content": "f4f34a3a"
+        "content": "content---tw-portfolio-blogf-4-f-567"
       },
       {
-        "content": "8717b14a"
+        "content": "content---tw-portfolio-blog-871-779"
       },
       {
-        "content": "925b3f96"
+        "content": "content---tw-portfolio-blog-925-630"
       }
     ],
-    "__props": "f739d2ba"
+    "__props": "__props---tw-portfolio-blog-tags-docusaurusf-73-2be"
   },
   "/tw-portfolio/blog/tags/facebook-f4e": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---tw-portfolio-blog-766-604"
       }
     ],
-    "__props": "1e413246"
+    "__props": "__props---tw-portfolio-blog-tags-facebook-1-e-4-abc"
   },
   "/tw-portfolio/blog/tags/hello-f10": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
     "items": [
       {
-        "content": "7661071f"
+        "content": "content---tw-portfolio-blog-766-604"
       },
       {
-        "content": "8717b14a"
+        "content": "content---tw-portfolio-blog-871-779"
       }
     ],
-    "__props": "ccc98704"
+    "__props": "__props---tw-portfolio-blog-tags-helloccc-f3d"
   },
   "/tw-portfolio/blog/tags/hola-721": {
-    "__comp": "6875c492",
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
     "items": [
       {
-        "content": "925b3f96"
+        "content": "content---tw-portfolio-blog-925-630"
       }
     ],
-    "__props": "583a48bf"
+    "__props": "__props---tw-portfolio-blog-tags-hola-583-bbd"
   },
   "/tw-portfolio/blog/welcome-ba5": {
-    "__comp": "ccc49370",
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "data": {
-        "blogMetadata": "acecf23e"
+        "blogMetadata": "blogMetadata---tw-portfolio-blog-authorsace-b1c"
       },
-      "plugin": "36994c47"
+      "plugin": "plugin---tw-portfolio-blog-369-023"
     },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
+    "sidebar": "sidebar---tw-portfolio-blog-814-099",
+    "content": "content---tw-portfolio-blog-welcomed-9-f-5d0"
   },
   "/tw-portfolio/markdown-page-82f": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---tw-portfolio-markdown-pagea-74-3fa"
     },
-    "content": "393be207"
+    "content": "content---tw-portfolio-markdown-page-393-e7c"
   },
   "/tw-portfolio/search-aad": {
-    "__comp": "1a4e3797",
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
     "__context": {
-      "plugin": "c141421f"
+      "plugin": "plugin---tw-portfolio-searchc-14-945"
     }
   },
   "/tw-portfolio/docs-6cb": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---tw-portfolio-docsaba-904"
     }
   },
   "/tw-portfolio/docs-a07": {
-    "__comp": "a7bd4aaa",
-    "__props": "1a9ce06b"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---tw-portfolio-docs-1-a-9-16d"
   },
   "/tw-portfolio/docs-780": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/tw-portfolio/docs/about-me/contact-366": {
-    "__comp": "17896441",
-    "content": "43f2a09f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-about-me-contact-43-f-ed9"
   },
   "/tw-portfolio/docs/about-me/resume-37e": {
-    "__comp": "17896441",
-    "content": "4ac1eb90"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-about-me-resume-4-ac-009"
   },
   "/tw-portfolio/docs/about-me/who-am-i-ac8": {
-    "__comp": "17896441",
-    "content": "7e2bc42c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-about-me-who-am-i-7-e-2-dfe"
   },
   "/tw-portfolio/docs/docs-example/api-eb7": {
-    "__comp": "17896441",
-    "content": "822d3cd8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-api-822-6ee"
   },
   "/tw-portfolio/docs/docs-example/faqs-41c": {
-    "__comp": "17896441",
-    "content": "5b192ab2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-faqs-5-b-1-9e2"
   },
   "/tw-portfolio/docs/docs-example/feature-spec-9b8": {
-    "__comp": "17896441",
-    "content": "3cc6b084"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-feature-spec-3-cc-290"
   },
   "/tw-portfolio/docs/docs-example/glossary-df6": {
-    "__comp": "17896441",
-    "content": "84f87cef"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-glossary-84-f-7b4"
   },
   "/tw-portfolio/docs/docs-example/release-notes-ccb": {
-    "__comp": "17896441",
-    "content": "7f5e9c69"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-release-notes-7-f-5-9d9"
   },
   "/tw-portfolio/docs/docs-example/scripts-b85": {
-    "__comp": "17896441",
-    "content": "83b3a838"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-scripts-83-b-ff8"
   },
   "/tw-portfolio/docs/docs-example/tutorials-3e9": {
-    "__comp": "17896441",
-    "content": "d61556bc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-tutorialsd-61-baa"
   },
   "/tw-portfolio/docs/docs-example/use-case-d76": {
-    "__comp": "17896441",
-    "content": "e9f9ee87"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-use-casee-9-f-67e"
   },
   "/tw-portfolio/docs/docs-example/ux-writing-545": {
-    "__comp": "17896441",
-    "content": "efd41f2d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---tw-portfolio-docs-docs-example-ux-writingefd-ae9"
   },
   "/tw-portfolio/-208": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---tw-portfolio-markdown-pagea-74-3fa"
     },
-    "config": "5e9f5e1a"
+    "config": "config---tw-portfolio-5-e-9-460"
   }
 }
