@@ -31,18 +31,23 @@
               "sidebar": "docsSidebar"
             },
             {
-              "id": "docs-example/component",
-              "path": "/tw-portfolio/docs/docs-example/component",
-              "sidebar": "docsSidebar"
-            },
-            {
               "id": "docs-example/faqs",
               "path": "/tw-portfolio/docs/docs-example/faqs",
               "sidebar": "docsSidebar"
             },
             {
-              "id": "docs-example/feature-spec",
-              "path": "/tw-portfolio/docs/docs-example/feature-spec",
+              "id": "docs-example/feature-spec/data-format-custom",
+              "path": "/tw-portfolio/docs/docs-example/feature-spec/data-format-custom",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "docs-example/feature-spec/fhir",
+              "path": "/tw-portfolio/docs/docs-example/feature-spec/fhir",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "docs-example/feature-spec/index",
+              "path": "/tw-portfolio/docs/docs-example/feature-spec/",
               "sidebar": "docsSidebar"
             },
             {

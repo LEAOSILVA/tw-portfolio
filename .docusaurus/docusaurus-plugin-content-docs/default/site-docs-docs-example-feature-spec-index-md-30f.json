@@ -1,0 +1,26 @@
+{
+  "id": "docs-example/feature-spec/index",
+  "title": "Feature specifications",
+  "description": "This section provides detailed specifications for selected features and components used in integration flows. Explore the pages below to understand their purpose, configuration options, and usage guidelines.",
+  "source": "@site/docs/docs-example/feature-spec/index.md",
+  "sourceDirName": "docs-example/feature-spec",
+  "slug": "/docs-example/feature-spec/",
+  "permalink": "/tw-portfolio/docs/docs-example/feature-spec/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "FAQs",
+    "permalink": "/tw-portfolio/docs/docs-example/faqs"
+  },
+  "next": {
+    "title": "Custom data format",
+    "permalink": "/tw-portfolio/docs/docs-example/feature-spec/data-format-custom"
+  }
+}

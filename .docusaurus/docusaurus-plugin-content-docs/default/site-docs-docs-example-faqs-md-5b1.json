@@ -16,11 +16,11 @@
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Component",
-    "permalink": "/tw-portfolio/docs/docs-example/component"
+    "title": "API documentation",
+    "permalink": "/tw-portfolio/docs/docs-example/api"
   },
   "next": {
-    "title": "Feature spec",
-    "permalink": "/tw-portfolio/docs/docs-example/feature-spec"
+    "title": "Feature specifications",
+    "permalink": "/tw-portfolio/docs/docs-example/feature-spec/"
   }
 }

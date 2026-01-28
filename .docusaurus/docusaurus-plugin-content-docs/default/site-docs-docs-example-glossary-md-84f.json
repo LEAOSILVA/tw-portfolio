@@ -16,8 +16,8 @@
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Feature spec",
-    "permalink": "/tw-portfolio/docs/docs-example/feature-spec"
+    "title": "FHIR",
+    "permalink": "/tw-portfolio/docs/docs-example/feature-spec/fhir"
   },
   "next": {
     "title": "Release notes",
