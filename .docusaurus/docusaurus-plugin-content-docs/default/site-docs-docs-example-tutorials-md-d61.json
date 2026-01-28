@@ -1,7 +1,7 @@
 {
   "id": "docs-example/tutorials",
-  "title": "Tutorial",
-  "description": "Context",
+  "title": "Tutorials",
+  "description": "Check out the following tutorials:",
   "source": "@site/docs/docs-example/tutorials.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/tutorials",

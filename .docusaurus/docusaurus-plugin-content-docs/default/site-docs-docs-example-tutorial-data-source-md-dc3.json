@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/tutorial-data-source",
+  "title": "Binding data sources to integration flows",
+  "description": "Context",
+  "source": "@site/docs/docs-example/tutorial-data-source.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/tutorial-data-source",
+  "permalink": "/tw-portfolio/docs/docs-example/tutorial-data-source",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "parent": "tutorials",
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Component",
+    "permalink": "/tw-portfolio/docs/docs-example/component"
+  },
+  "next": {
+    "title": "FAQs",
+    "permalink": "/tw-portfolio/docs/docs-example/faqs"
+  }
+}

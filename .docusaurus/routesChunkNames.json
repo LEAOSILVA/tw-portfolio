@@ -206,17 +206,17 @@
     },
     "content": "393be207"
   },
-  "/tw-portfolio/docs-33f": {
+  "/tw-portfolio/docs-ce7": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/tw-portfolio/docs-4e9": {
+  "/tw-portfolio/docs-bb9": {
     "__comp": "a7bd4aaa",
     "__props": "1a9ce06b"
   },
-  "/tw-portfolio/docs-a01": {
+  "/tw-portfolio/docs-227": {
     "__comp": "a94703ab"
   },
   "/tw-portfolio/docs/about-me/contact-366": {
@@ -258,6 +258,14 @@
   "/tw-portfolio/docs/docs-example/scripts-b85": {
     "__comp": "17896441",
     "content": "83b3a838"
+  },
+  "/tw-portfolio/docs/docs-example/tutorial-data-source-4af": {
+    "__comp": "17896441",
+    "content": "dc3b0d69"
+  },
+  "/tw-portfolio/docs/docs-example/tutorial-mqd-599": {
+    "__comp": "17896441",
+    "content": "4a5f20dc"
   },
   "/tw-portfolio/docs/docs-example/tutorials-3e9": {
     "__comp": "17896441",

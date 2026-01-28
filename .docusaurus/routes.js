@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/tw-portfolio/docs',
-    component: ComponentCreator('/tw-portfolio/docs', '33f'),
+    component: ComponentCreator('/tw-portfolio/docs', 'ce7'),
     routes: [
       {
         path: '/tw-portfolio/docs',
-        component: ComponentCreator('/tw-portfolio/docs', '4e9'),
+        component: ComponentCreator('/tw-portfolio/docs', 'bb9'),
         routes: [
           {
             path: '/tw-portfolio/docs',
-            component: ComponentCreator('/tw-portfolio/docs', 'a01'),
+            component: ComponentCreator('/tw-portfolio/docs', '227'),
             routes: [
               {
                 path: '/tw-portfolio/docs/about-me/contact',
@@ -146,6 +146,18 @@ export default [
               {
                 path: '/tw-portfolio/docs/docs-example/scripts',
                 component: ComponentCreator('/tw-portfolio/docs/docs-example/scripts', 'b85'),
+                exact: true,
+                sidebar: "docsSidebar"
+              },
+              {
+                path: '/tw-portfolio/docs/docs-example/tutorial-data-source',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorial-data-source', '4af'),
+                exact: true,
+                sidebar: "docsSidebar"
+              },
+              {
+                path: '/tw-portfolio/docs/docs-example/tutorial-mqd',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorial-mqd', '599'),
                 exact: true,
                 sidebar: "docsSidebar"
               },

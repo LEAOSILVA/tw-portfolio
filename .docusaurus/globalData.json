@@ -61,6 +61,16 @@
               "sidebar": "docsSidebar"
             },
             {
+              "id": "docs-example/tutorial-data-source",
+              "path": "/tw-portfolio/docs/docs-example/tutorial-data-source",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "docs-example/tutorial-mqd",
+              "path": "/tw-portfolio/docs/docs-example/tutorial-mqd",
+              "sidebar": "docsSidebar"
+            },
+            {
               "id": "docs-example/tutorials",
               "path": "/tw-portfolio/docs/docs-example/tutorials",
               "sidebar": "docsSidebar"

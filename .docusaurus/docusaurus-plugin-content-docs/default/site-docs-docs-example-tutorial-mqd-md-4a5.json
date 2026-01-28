@@ -1,0 +1,27 @@
+{
+  "id": "docs-example/tutorial-mqd",
+  "title": "Data Quality Engine",
+  "description": "Context",
+  "source": "@site/docs/docs-example/tutorial-mqd.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/tutorial-mqd",
+  "permalink": "/tw-portfolio/docs/docs-example/tutorial-mqd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "parent": "tutorials",
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API documentation",
+    "permalink": "/tw-portfolio/docs/docs-example/api"
+  },
+  "next": {
+    "title": "Component",
+    "permalink": "/tw-portfolio/docs/docs-example/component"
+  }
+}
