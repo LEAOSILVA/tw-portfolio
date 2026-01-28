@@ -4,9 +4,13 @@ sidebar_position: 8
 
 # Tutorial
 
-This tutorial explains how to integrate Sensedia’s API Platform and Events Hub to help Open Finance customers in Brazil comply with Central Bank requirements. 
+> **Context**
+>
+> This tutorial explains how to integrate an API Platform and a software that distributes events in real time. The objective of this integration is to help Open Finance customers in Brazil comply with Central Bank requirements. 
 
-I was tasked with creating it under a tight deadline, with limited prior knowledge of Open Finance (as I was not part of the Open Finance team). By clearly demonstrating the integrated use of these products, the tutorial enabled the immediate onboarding of eight clients, showing how effective documentation can deliver real business impact even under challenging conditions.
+I was tasked with creating it under a tight deadline, with limited prior knowledge of Open Finance (as I was not part of the Open Finance team). 
+
+By clearly demonstrating the integrated use of these products, the tutorial enabled the immediate onboarding of eight clients, showing how effective documentation can deliver real business impact even under challenging conditions.
 
 ## Data Quality Engine
 
@@ -39,7 +43,7 @@ Access **Events Hub** and perform the following actions:
    ![MQD context creation screen](./img/create-context.png)
 
    :::note[NOTE] 
-   Consult more information on configuring [contexts](https://docs.sensedia.com/en/events-hub-guide/Latest/contexts.html) in Events Hub. 
+   Consult more information on configuring **contexts**.
    :::
 
 #### Create a handler
@@ -68,7 +72,8 @@ Access **Events Hub** and perform the following actions:
    a. Create an **IP Filtering Validation** policy, specific to the outbound IPs of the Sensedia API Platform.
 
    :::important[IMPORTANT] 
-   To check the IPs of the Sensedia API Platform, access the [Infrastructure Manager](https://docs.sensedia.com/en/api-management-guide/Latest/other-info/infrastructure-manager.html):  
+   To check the IPs of the Sensedia API Platform, access the **Infrastructure Manager**.
+   :::
 
    Once logged into the platform, append `/info` directly to the end of the URL, as shown below:  
 
@@ -88,7 +93,7 @@ Access **Events Hub** and perform the following actions:
       ![IP Filtering Validation Policy](./img/mqd-data-policy.png)
 
       :::note[NOTE] 
-      Consult more information on configuring [handlers](https://docs.sensedia.com/en/events-hub-guide/Latest/handlers.html) in Events Hub.
+      Consult more information on configuring **handlers**
       :::
 
 5. In the **Review** section, review the information and save it.
@@ -116,7 +121,7 @@ Access **Events Hub** and perform the following actions:
 :::note[NOTE] 
 If the API is inactive at the time of registration, the subscriber status will appear gray, but this does not mean it is inactive.  
 
-Consult more information on configuring [subscribers](https://docs.sensedia.com/en/events-hub-guide/Latest/subscribers.html) in Events Hub.
+Consult more information on configuring **subscribers**.
 :::
 
 5. In the **Review** section, review the information and save it.
@@ -133,8 +138,8 @@ This API will be responsible for receiving data from the Events Hub and forwardi
 
 When configuring this API:
 
-1. In the [**Resources**](https://docs.sensedia.com/en/api-management-guide/Latest/apis/resources.html) step, add a resource. For example: `v1/report-data`.
-2. In the [**Flows**](https://docs.sensedia.com/en/api-management-guide/Latest/apis/flows.html) step:
+1. In the **Resources** step, add a resource. For example: `v1/report-data`.
+2. In the **Flows** step:
 
    a. Insert the URL that will be the API's destination, which varies depending on the API to be exposed.  
 
@@ -176,7 +181,7 @@ When configuring this API:
        ```
 
 :::note[NOTE] 
-Consult more information on creating [APIs](https://docs.sensedia.com/en/api-management-guide/Latest/apis/creating-apis.html) in the Sensedia API Platform.
+Consult more information on creating **APIs** in the Sensedia API Platform.
 :::
 
 ---
@@ -185,7 +190,7 @@ Consult more information on creating [APIs](https://docs.sensedia.com/en/api-man
 
 In the Sensedia API Platform, select the data APIs eligible for MQD:
 
-1. Add the Custom JS interceptor in the [**Flows**](https://docs.sensedia.com/en/api-management-guide/Latest/apis/flows.html) step. If there is more than one API, place the interceptor once in each existing API.
+1. Add the Custom JS interceptor in the **Flows** step. If there is more than one API, place the interceptor once in each existing API.
 
 2. In the **Resources** field, keep the "All" option.
 

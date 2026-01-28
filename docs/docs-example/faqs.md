@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # FAQs
 
-These FAQs sample showcase common questions from Sensedia Integrations, organized by topic for easy navigation. They provide clear, practical guidance on authorization, connectors, and executions, helping users quickly understand key platform features and resolve common issues.
+> **Context**
+>
+>Sample of Frequently Asked Questions, organized by topic for easy navigation. They provide clear, practical guidance on authorization, connectors, and executions, helping users quickly understand key platform features and resolve common issues.
 
 ## Authorizations
 
@@ -33,7 +35,7 @@ Most database connectors available in Sensedia Integrations require instructions
 
 **How to write an instruction**
 
-You can create an instruction using the [properties](https://docs.sensedia.com/en/integrations-guide/Latest/properties.html) feature, which contain environment variables and values from previous steps in the flow:
+You can create an instruction using the **properties** feature, which contain environment variables and values from previous steps in the flow:
 
 You can create an instruction in two different ways:
 
@@ -44,18 +46,8 @@ You can create an instruction in two different ways:
     - Type the expression using the Concat function. 
 
 :::note[NOTE]    
-See more details on how to [build SQL instructions](https://docs.sensedia.com/en/integrations-guide/Latest/connectors-sql-instructions.html) and how to use the [Concat function](https://docs.sensedia.com/en/integrations-guide/Latest/connectors-concat.html).  
+See more details on how to [**build SQL instructions** and how to use the **Concat function**.
 :::
-
-The videos below show how to create a simple instruction for a MySQL connector:
-
-* **Using the Concat function**: 
-
-  [![Watch on YouTube](https://img.youtube.com/vi/zwJoaMFtoTE/0.jpg)](https://www.youtube.com/watch?v=zwJoaMFtoTE&t=24s)
-
-* **Without using the Concat function**: 
-
-  [![Watch on YouTube](https://img.youtube.com/vi/W0tR-Ifh3s8/0.jpg)](https://www.youtube.com/watch?v=W0tR-Ifh3s8&t=31s)
 
 </details>
 
@@ -76,7 +68,7 @@ If you can't view the execution traces of a flow, it is possible that the traces
   The option to view traces is only available for executions performed after the traces feature has been enabled.
  
   :::note[NOTE] 
-  See how to [create a role and enable permissions in Access Control](https://docs.sensedia.com/en/access-control-guide/Latest/policies.html#create_policy).
+  See how to **create a role and enable permissions in Access Control**
   :::
 </details>
 

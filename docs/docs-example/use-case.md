@@ -4,7 +4,9 @@ sidebar_position: 9
 
 # Use case
 
-This use case demonstrates a real-world scenario in systems integrations for payment management. It provides clear guidance that helps customers understand the process and apply it effectively.
+> **Context**
+>
+>This use case demonstrates a real-world scenario in systems integrations for payment management. It provides clear guidance that helps customers understand the process and apply it effectively.
 
 ## Payment management
 
@@ -90,7 +92,7 @@ Check the description of each step of the integration flow:
 ::: 
 
 :::note[NOTE] 
-* See how to create a file in the Resources folder.
+* See how to create a file in the **Resources** folder.
 :::
 
 #### Payment processing

@@ -6,7 +6,7 @@ sidebar_position: 1
 
 > **Context**
 >
->Documenting Sensedia Analytics API.
+>Sensedia Analytics API.
 
 ## Overview
 

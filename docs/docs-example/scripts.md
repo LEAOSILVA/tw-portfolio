@@ -4,11 +4,10 @@ sidebar_position: 7
 
 # Script
 
-The excerpt below comes from a training session that walks users through the creation of an integration flow, guiding them step by step from start to finish. It includes detailed configurations for each step, along with the corresponding logs and traces.
-
-While the script itself is not publicly available, it serves as a powerful tool for planning and recording the session. 
-
-For clarity, the flow steps are summarized below. We will focus on **Step 5: Data transformation with JSONata**.
+> **Context**
+>
+>The excerpt below comes from a training session that walks users through the creation of an integration flow, guiding them step by step from start to finish. It includes detailed configurations for each step, along with the corresponding logs and traces.
+> For clarity, the flow steps are summarized below. We will focus on **Step 5: Data transformation with JSONata**.
 
 1. **Order received with a REST trigger**  
    The flow starts with a POST request. The request includes a client identification code (`ClientID`).  
@@ -27,10 +26,6 @@ For clarity, the flow steps are summarized below. We will focus on **Step 5: Dat
 
 6. **Status update and confirmation**  
    The system updates the order status in an internal endpoint. It also receives and records the payment confirmation.  
-
-:::note[NOTE]    
-The training sessions are recorded in Portuguese. The script below is a translated version. 
-:::
 
 ## Data transformation with JSONata
 

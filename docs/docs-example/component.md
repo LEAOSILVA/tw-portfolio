@@ -6,15 +6,14 @@ sidebar_position: 2
 
 > **Context**
 >
->Documenting the Apache Camel component FHIR to be used in integration flows in an iPaas.
+> The [**FHIR**](https://camel.apache.org/components/4.10.x/fhir-component.html) Apache component enables standardized healthcare data exchange between systems, ensuring interoperability and consistency in communication. 
+> It defines a flexible structure based on resources that represent clinical, administrative, and financial entities, enabling standardized communication across different platforms.
 
-The [**FHIR**](https://camel.apache.org/components/4.10.x/fhir-component.html) component enables standardized healthcare data exchange between systems, ensuring interoperability and consistency in communication. 
-It defines a flexible structure based on resources that represent clinical, administrative, and financial entities, enabling standardized communication across different platforms.
-
-The excerpt below shows important information regarding the use of this component, such as: 
+The excerpt below shows important information regarding the use of this component in an iPaas, such as: 
 - URI Syntax
 - Path and Query Parameters
 - Examples
+- Guidelines
 
 ## URI Syntax
 

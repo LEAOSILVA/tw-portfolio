@@ -4,7 +4,9 @@ sidebar_position: 6
 
 # Release notes
 
-These release notes highlight Sensedia Integrations’ new features, improvements, and fixes, clearly communicated for users. They demonstrate how structured, user-focused documentation keeps users informed, and supports effective use of the product.
+> **Context**
+>
+> Sample of release notes that highlight product's new features, improvements, and fixes.
 
 <details>
   <summary>September 02, 2025</summary>
@@ -27,7 +29,6 @@ These release notes highlight Sensedia Integrations’ new features, improvement
   The integration deployment process now requires creating a release, which represents a specific version of your integration flow.  
   With this feature, you can control and manage different versions of your integrations, ensuring greater organization and traceability in deployments.  
 
-  Check out [how to create releases](https://docs.sensedia.com/en/integrations-guide/Latest/flow-deploy.html).
 </details>
 
 
@@ -61,8 +62,6 @@ These release notes highlight Sensedia Integrations’ new features, improvement
 - **New component released**  
 
   You can now use **Google Cloud Storage** in your integrations, making it easier to store and retrieve objects in Google Cloud buckets.  
-
-  Check all available [components](https://docs.sensedia.com/en/integrations-guide/Latest/apache-camel-components.html) and [triggers](https://docs.sensedia.com/en/integrations-guide/Latest/source-triggers.html).
 
 </details>
 

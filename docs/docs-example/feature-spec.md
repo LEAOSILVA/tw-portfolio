@@ -4,10 +4,10 @@ sidebar_position: 4
 
 # Feature spec
 
-Sensedia Integrations uses Apache Camel components and EIPs to build integration flows.
-The **Marshal** and **Unmarshal** EIPs enable interoperability between systems by transforming data across different format types.
-
-The excerpt below introduces the **Custom** format type, which allows users to process Excel spreadsheets within an integration flow using the Marshal/Unmarshal EIPs.
+> **Context**
+> The **Marshal** and **Unmarshal** EIPs enable interoperability between systems by transforming data across different format types.
+>
+>The excerpt below introduces the **Custom** format type, which allows users to process Excel spreadsheets within an integration flow using the Marshal/Unmarshal EIPs.
 
 ## Marshal/Unmarshal
 
