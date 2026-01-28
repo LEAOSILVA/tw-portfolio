@@ -31,6 +31,11 @@
               "sidebar": "docsSidebar"
             },
             {
+              "id": "docs-example/component",
+              "path": "/tw-portfolio/docs/docs-example/component",
+              "sidebar": "docsSidebar"
+            },
+            {
               "id": "docs-example/faqs",
               "path": "/tw-portfolio/docs/docs-example/faqs",
               "sidebar": "docsSidebar"

@@ -1,0 +1,26 @@
+{
+  "id": "docs-example/component",
+  "title": "Component",
+  "description": "Sensedia Integrations uses Apache Camel components and EIPs to build integration flows.",
+  "source": "@site/docs/docs-example/component.md",
+  "sourceDirName": "docs-example",
+  "slug": "/docs-example/component",
+  "permalink": "/tw-portfolio/docs/docs-example/component",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API",
+    "permalink": "/tw-portfolio/docs/docs-example/api"
+  },
+  "next": {
+    "title": "FAQs",
+    "permalink": "/tw-portfolio/docs/docs-example/faqs"
+  }
+}

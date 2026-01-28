@@ -82,7 +82,7 @@ export default {
     },
     "footer": {
       "style": "light",
-      "copyright": "Copyright © 2025 Natalia Leão. Built with Docusaurus.",
+      "copyright": "Copyright © 2026 Natalia Leão. Built with Docusaurus.",
       "links": []
     },
     "prism": {

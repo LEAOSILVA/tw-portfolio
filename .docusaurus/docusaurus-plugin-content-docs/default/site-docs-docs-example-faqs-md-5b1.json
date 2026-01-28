@@ -10,14 +10,14 @@
   "unlisted": false,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 3
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "API",
-    "permalink": "/tw-portfolio/docs/docs-example/api"
+    "title": "Component",
+    "permalink": "/tw-portfolio/docs/docs-example/component"
   },
   "next": {
     "title": "Feature spec",
