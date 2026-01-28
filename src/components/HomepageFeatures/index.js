@@ -10,35 +10,35 @@ const features = [
   },
   {
     title: 'FAQs',
-    link: '/docs/faqs',
+    link: '/docs/docs-example/faqs',
   },
   {
     title: 'Feature Specifications',
-    link: '/docs/feature-spec',
+    link: '/docs/docs-example/feature-spec/index',
   },
   {
     title: 'Glossary',
-    link: '/docs/glossary',
+    link: '/docs/docs-example/glossary',
   },
   {
     title: 'Release Notes',
-    link: '/docs/release-notes',
+    link: '/docs/docs-example/release-notes',
   },
   {
     title: 'Scripts',
-    link: '/docs/scripts',
+    link: '/docs/docs-example/scripts',
   },
   {
     title: 'Tutorials',
-    link: '/docs/tutorials',
+    link: '/docs/docs-example/tutorials/index',
   },
   {
     title: 'Use Cases',
-    link: '/docs/use-case',
+    link: '/docs/docs-example/use-case',
   },
   {
     title: 'UX Writing',
-    link: '/docs/ux-writing',
+    link: '/docs/docs-example/ux-writing',
   },
 ];
 
