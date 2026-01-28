@@ -54,8 +54,6 @@ The excerpt below shows important information regarding the use of this componen
       fhirJson: {}
 ```
 
-![](../assets/fhir-connector.png)
-
 **Result**
 
 ```
@@ -130,7 +128,6 @@ The excerpt below shows important information regarding the use of this componen
     - marshal:
       fhirJson: {}
 ```
-![](../assets/fhir-connector-2.png)
 
 **Result**
 
