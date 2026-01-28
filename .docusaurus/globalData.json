@@ -31,21 +31,6 @@
               "sidebar": "docsSidebar"
             },
             {
-              "id": "docs-example/Available tutorials/index",
-              "path": "/tw-portfolio/docs/docs-example/Available tutorials/",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "docs-example/Available tutorials/tutorial-data-source",
-              "path": "/tw-portfolio/docs/docs-example/Available tutorials/tutorial-data-source",
-              "sidebar": "docsSidebar"
-            },
-            {
-              "id": "docs-example/Available tutorials/tutorial-mqd",
-              "path": "/tw-portfolio/docs/docs-example/Available tutorials/tutorial-mqd",
-              "sidebar": "docsSidebar"
-            },
-            {
               "id": "docs-example/component",
               "path": "/tw-portfolio/docs/docs-example/component",
               "sidebar": "docsSidebar"
@@ -73,6 +58,21 @@
             {
               "id": "docs-example/scripts",
               "path": "/tw-portfolio/docs/docs-example/scripts",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "docs-example/tutorials/index",
+              "path": "/tw-portfolio/docs/docs-example/tutorials/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "docs-example/tutorials/tutorials-data-source",
+              "path": "/tw-portfolio/docs/docs-example/tutorials/tutorials-data-source",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "docs-example/tutorials/tutorials-mqd",
+              "path": "/tw-portfolio/docs/docs-example/tutorials/tutorials-mqd",
               "sidebar": "docsSidebar"
             },
             {

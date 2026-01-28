@@ -1,0 +1,26 @@
+{
+  "id": "docs-example/tutorials/index",
+  "title": "Tutorials",
+  "description": "Check out the following tutorials:",
+  "source": "@site/docs/docs-example/tutorials/index.md",
+  "sourceDirName": "docs-example/tutorials",
+  "slug": "/docs-example/tutorials/",
+  "permalink": "/tw-portfolio/docs/docs-example/tutorials/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Script",
+    "permalink": "/tw-portfolio/docs/docs-example/scripts"
+  },
+  "next": {
+    "title": "Data Quality Engine",
+    "permalink": "/tw-portfolio/docs/docs-example/tutorials/tutorials-mqd"
+  }
+}

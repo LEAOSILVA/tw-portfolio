@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/tw-portfolio/docs',
-    component: ComponentCreator('/tw-portfolio/docs', 'dc6'),
+    component: ComponentCreator('/tw-portfolio/docs', 'cb5'),
     routes: [
       {
         path: '/tw-portfolio/docs',
-        component: ComponentCreator('/tw-portfolio/docs', '528'),
+        component: ComponentCreator('/tw-portfolio/docs', 'a23'),
         routes: [
           {
             path: '/tw-portfolio/docs',
-            component: ComponentCreator('/tw-portfolio/docs', '0e2'),
+            component: ComponentCreator('/tw-portfolio/docs', '768'),
             routes: [
               {
                 path: '/tw-portfolio/docs/about-me/contact',
@@ -110,24 +110,6 @@ export default [
               {
                 path: '/tw-portfolio/docs/docs-example/api',
                 component: ComponentCreator('/tw-portfolio/docs/docs-example/api', 'eb7'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/tw-portfolio/docs/docs-example/Available tutorials',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/Available tutorials', '6f1'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/tw-portfolio/docs/docs-example/Available tutorials/tutorial-data-source',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/Available tutorials/tutorial-data-source', '822'),
-                exact: true,
-                sidebar: "docsSidebar"
-              },
-              {
-                path: '/tw-portfolio/docs/docs-example/Available tutorials/tutorial-mqd',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/Available tutorials/tutorial-mqd', 'c29'),
                 exact: true,
                 sidebar: "docsSidebar"
               },
@@ -164,6 +146,24 @@ export default [
               {
                 path: '/tw-portfolio/docs/docs-example/scripts',
                 component: ComponentCreator('/tw-portfolio/docs/docs-example/scripts', 'b85'),
+                exact: true,
+                sidebar: "docsSidebar"
+              },
+              {
+                path: '/tw-portfolio/docs/docs-example/tutorials',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials', '599'),
+                exact: true,
+                sidebar: "docsSidebar"
+              },
+              {
+                path: '/tw-portfolio/docs/docs-example/tutorials/tutorials-data-source',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials/tutorials-data-source', 'dff'),
+                exact: true,
+                sidebar: "docsSidebar"
+              },
+              {
+                path: '/tw-portfolio/docs/docs-example/tutorials/tutorials-mqd',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/tutorials/tutorials-mqd', '775'),
                 exact: true,
                 sidebar: "docsSidebar"
               },

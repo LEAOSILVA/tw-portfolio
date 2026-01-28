@@ -1,0 +1,26 @@
+{
+  "id": "docs-example/tutorials/tutorials-data-source",
+  "title": "Binding data sources to integration flows",
+  "description": "Context",
+  "source": "@site/docs/docs-example/tutorials/tutorials-data-source.md",
+  "sourceDirName": "docs-example/tutorials",
+  "slug": "/docs-example/tutorials/tutorials-data-source",
+  "permalink": "/tw-portfolio/docs/docs-example/tutorials/tutorials-data-source",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Data Quality Engine",
+    "permalink": "/tw-portfolio/docs/docs-example/tutorials/tutorials-mqd"
+  },
+  "next": {
+    "title": "Use case",
+    "permalink": "/tw-portfolio/docs/docs-example/use-case"
+  }
+}

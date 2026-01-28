@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# Data Quality Engine
+# Data quality engine
 
 > **Context**
 >
 > This tutorial explains how to integrate an API Platform and a software that distributes events in real time. The objective of this integration is to help Open Finance customers in Brazil comply with Central Bank requirements. 
 
-**Data Quality Engine** (_Motor de Qualidade de Dados_ or _MQD_ in Portuguese) is the open-source tool that evaluates the quality of data shared among participants of [Open Finance](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/362578565/Motor+de+Qualidade+de+Dados), ensuring the integrity of the information.
+**Data quality engine** (_Motor de qualidade de dados_ or _MQD_ in Portuguese) is the open-source tool that evaluates the quality of data shared among participants of [Open Finance](https://openfinancebrasil.atlassian.net/wiki/spaces/OF/pages/362578565/Motor+de+Qualidade+de+Dados), ensuring the integrity of the information.
 
 Sensedia provides tools to facilitate integration between the **Sensedia API Platform**, **Events Hub**, and **MQD**, enabling efficient data processing.
 
