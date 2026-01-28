@@ -4,31 +4,36 @@ sidebar_position: 2
 
 # Component
 
-Sensedia Integrations uses Apache Camel components and EIPs to build integration flows.
+> **Context**
+>
+>Documenting the Apache Camel component FHIR to be used in integration flows in an iPaas.
 
-The [**FHIR**](https://camel.apache.org/components/4.10.x/fhir-component.html) component enables standardized healthcare data exchange between systems, ensuring interoperability and consistency in communication. It defines a flexible structure based on resources that represent clinical, administrative, and financial entities, enabling standardized communication across different platforms.
+The [**FHIR**](https://camel.apache.org/components/4.10.x/fhir-component.html) component enables standardized healthcare data exchange between systems, ensuring interoperability and consistency in communication. 
+It defines a flexible structure based on resources that represent clinical, administrative, and financial entities, enabling standardized communication across different platforms.
 
-The excerpt below shows important information regarding the use of this component, such as: URI syntax, path and query parameters, and usage examples.
+The excerpt below shows important information regarding the use of this component, such as: 
+- URI Syntax
+- Path and Query Parameters
+- Examples
 
-**URI Syntax**: `fhir:apiName/methodName`
+## URI Syntax
 
-### Main fields
+`fhir:apiName/methodName`
 
-*Path parameters*
+## Path Parameters
 
 | **Name** | **Description** | **Default** | **Type** |
 |----------|---------------|------------|----------|
-| `apiName` (common) | (required) Type of operation to be executed. Possible values: `CAPABILITIES`, `CREATE`, `DELETE`, `HISTORY`, `LOAD_PAGE`, `META`, `OPERATION`, `PATCH`, `READ`, `SEARCH`, `TRANSACTION`, `UPDATE`, `VALIDATE`. | —  | FhirApiName |
-| `methodName` (common)| (required) Sub-operation to be used for the selected operation.| — | String |
+| `apiName` (common) | (**Required**) Type of operation to be executed. Possible values: `CAPABILITIES`, `CREATE`, `DELETE`, `HISTORY`, `LOAD_PAGE`, `META`, `OPERATION`, `PATCH`, `READ`, `SEARCH`, `TRANSACTION`, `UPDATE`, `VALIDATE`. | —  | FhirApiName |
+| `methodName` (common)| (**Required**) Sub-operation to be used for the selected operation.| — | String |
 
-
-*Query parameters*
+## Query Parameters
 
 | **Name** | **Description** | **Default** | **Type** |
 |----------|---------------|------------|----------|
 | `serverUrl` | The base URL of the FHIR server. |—  | String |
 
-### Examples
+## Examples
 
 **Example 1**: querying patient data by ID (api: read)
 
@@ -536,8 +541,7 @@ The excerpt below shows important information regarding the use of this componen
   ]
 }
 ```
-
-### Guidelines for Using the FHIR Component
+## Guidelines
 
 - The component's response will be inserted into the _Exchange_ body as a Java object.
   - The object varies according to the API and protocol version used.

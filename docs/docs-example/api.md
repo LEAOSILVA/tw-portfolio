@@ -2,15 +2,13 @@
 sidebar_position: 1
 ---
 
-# API
+# API documentation
 
-## Sensedia Analytics API
+> **Context**
+>
+>Documenting Sensedia Analytics API.
 
-### Overview
-
-:::note[NOTE]
-Open API Specification available at [Sensedia Analytics API](https://portal-apis.sensedia.com/api-portal/en/content/sensedia-analytics-apis).
-:::
+## Overview
 
 **Sensedia Analytics** is a solution designed to help you **manage metrics and export traces efficiently**.  
 
@@ -29,10 +27,6 @@ The **Query DSL (Domain Specific Language)** is OpenSearch’s JSON-based langua
 All endpoints require Bearer authentication with JWT. Include the token in the `Authorization` header:
 
 `Authorization: Bearer <your_jwt_token>`
-
-:::note[NOTE]
-Check our documentation on [how to create your access token](https://docs.sensedia.com/en/api-platform-guide/4.14.x.x/access-tokens/creating-access-tokens.html).
-:::
 
 ### Usage limits 
 
@@ -98,7 +92,7 @@ Retrieves calls data from OpenSearch using Query DSL.
 ##### Responses
 
 :::note[NOTE]
-Except for 200 response, all examples were taken from the Open API Specification.
+Example responses. Actual response may vary.
 :::
 
 **200**
@@ -139,9 +133,6 @@ Except for 200 response, all examples were taken from the Open API Specification
   }
 }
 ```
-:::note[NOTE]
-Example response. Actual response may vary.
-:::
 
 **400**
 - Validation error. 
@@ -149,8 +140,8 @@ Example response. Actual response may vary.
 ```json
 [
   {
-    "field": "xpto",
-    "message": "error in xpto",
+    "field": "startDate",
+    "message": "The value must follow the date format (YYYY-MM-DD).",
     "code": "0002"
   }
 ]
@@ -160,7 +151,10 @@ Example response. Actual response may vary.
 - Access error. Check your access token. 
 
 ```json
-{}
+{
+  "message": "Authentication failed. Check your access token.",
+  "code": "0003"
+}
 ```
 
 **404/500**      
@@ -168,7 +162,7 @@ Example response. Actual response may vary.
 
 ```json
 {
-  "message": "error xpto",
+  "message": "The requested resource was not found.",
   "code": "0001"
 }           
 ```
@@ -180,10 +174,6 @@ Example response. Actual response may vary.
 
 - `analytics/v1/products/{product_name}/traces/query` 
 Retrieves trace data from OpenSearch using Query DSL.
-
-:::tip[TIP]
-See [how to get the total calls for the day with the endpoint `traces/query`](https://docs.sensedia.com/en/analytics-guide/Latest/faqs-traces-query.html).
-:::
 
 ##### Parameters
 
@@ -206,7 +196,7 @@ See [how to get the total calls for the day with the endpoint `traces/query`](ht
 ##### Responses
 
 :::note[NOTE]
-Except for 200 response, all examples were taken from the Open API Specification.
+Example responses. Actual response may vary.
 :::
 
 **200**
@@ -282,9 +272,6 @@ Except for 200 response, all examples were taken from the Open API Specification
   }
 }
 ```
-:::note[NOTE]
-Example response. Actual response may vary.
-:::
 
 **400**
 - Validation error. 
@@ -293,9 +280,9 @@ Example response. Actual response may vary.
 [
   {
 		 
-    "field": "xpto",
-		"message": "error in xpto",
-		"code": "0002"
+    "field": "endDate",
+    "message": "This field is required and cannot be empty.",
+    "code": "0002"
   }
 ]
 ```
@@ -303,15 +290,18 @@ Example response. Actual response may vary.
 - Access error. Check your access token. 
 
 ```json
-{}
+{
+  "message": "Authentication failed. Check your access token.",
+  "code": "0003"
+}
 ```
 **404/500**      
 - Resource or internal error.   
 
 ```json
 {
-	"message": "error xpto",
-	"code": "0001"
+  "message": "The requested resource was not found.",
+  "code": "0001"
 }   
 ```
 #### GET
@@ -331,7 +321,7 @@ Retrieves individual traces by ID.
 ##### Responses
 
 :::note[NOTE]
-All examples were taken from the Open API Specification.
+Example responses. Actual response may vary.
 :::
 
 **200**
@@ -445,34 +435,38 @@ All examples were taken from the Open API Specification.
   }
 }
 ```
+*
 **400**
-- Validation error.  
+- Validation error. 
 
 ```json
 [
   {
-    "field": "xpto",
-    "message": "error in xpto",
+		 
+    "field": "endDate",
+    "message": "This field is required and cannot be empty.",
     "code": "0002"
   }
 ]
-```                                                                 
-**401 / 403**
-- Access error. Check your access token.
+```
+**401/403**      
+- Access error. Check your access token. 
 
 ```json
-{}
+{
+  "message": "Authentication failed. Check your access token.",
+  "code": "0003"
+}
 ```
-
-**404 / 500**
+**404/500**      
 - Resource or internal error.   
 
 ```json
 {
-	"message": "error xpto",
-	"code": "0001"
-}
-```  
+  "message": "The requested resource was not found.",
+  "code": "0001"
+}   
+```
 ### Logs
 
 #### GET
@@ -480,7 +474,7 @@ All examples were taken from the Open API Specification.
 ##### Endpoint
 
 - `analytics/v1/products/{product_name}/logs`
-Returns logs from a product and a tenant id. It allows several filters.| 
+Returns logs from a product and a tenant id. It allows several filters.
 
 ##### Parameters
 
@@ -507,7 +501,7 @@ Returns logs from a product and a tenant id. It allows several filters.|
 ##### Responses
 
 :::note[NOTE]
-All examples were taken from the Open API Specification.
+Example responses. Actual response may vary.
 :::
 
 **200**
@@ -537,11 +531,12 @@ All examples were taken from the Open API Specification.
   "errors": [
     {
       "code": "001",
-      "message": "some error happened",
-      "field": "some field"
+      "message": "The value must follow the date format (YYYY-MM-DD).",
+      "field": "startDate"
     }
   ]
 }
+
 ```
 **500**
 - Internal error.
@@ -551,8 +546,9 @@ All examples were taken from the Open API Specification.
   "errors": [
     {
       "code": "001",
-      "message": "some error happened"
+      "message": "An unexpected error occurred while processing the request."
     }
   ]
 }
+
 ```
