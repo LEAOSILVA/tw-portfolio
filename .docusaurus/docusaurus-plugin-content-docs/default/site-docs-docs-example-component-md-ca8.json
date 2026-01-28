@@ -16,11 +16,11 @@
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Data Quality Engine",
-    "permalink": "/tw-portfolio/docs/docs-example/tutorial-mqd"
+    "title": "API documentation",
+    "permalink": "/tw-portfolio/docs/docs-example/api"
   },
   "next": {
-    "title": "Binding data sources to integration flows",
-    "permalink": "/tw-portfolio/docs/docs-example/tutorial-data-source"
+    "title": "FAQs",
+    "permalink": "/tw-portfolio/docs/docs-example/faqs"
   }
 }

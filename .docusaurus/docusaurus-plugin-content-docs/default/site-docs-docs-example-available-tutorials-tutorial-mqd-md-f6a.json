@@ -1,0 +1,26 @@
+{
+  "id": "docs-example/Available tutorials/tutorial-mqd",
+  "title": "Data Quality Engine",
+  "description": "Context",
+  "source": "@site/docs/docs-example/Available tutorials/tutorial-mqd.md",
+  "sourceDirName": "docs-example/Available tutorials",
+  "slug": "/docs-example/Available tutorials/tutorial-mqd",
+  "permalink": "/tw-portfolio/docs/docs-example/Available tutorials/tutorial-mqd",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Tutorials",
+    "permalink": "/tw-portfolio/docs/docs-example/Available tutorials/"
+  },
+  "next": {
+    "title": "Binding data sources to integration flows",
+    "permalink": "/tw-portfolio/docs/docs-example/Available tutorials/tutorial-data-source"
+  }
+}
