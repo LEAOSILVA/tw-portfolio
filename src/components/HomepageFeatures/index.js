@@ -25,7 +25,7 @@ const features = [
     link: '/docs/docs-example/release-notes',
   },
   {
-    title: 'Scripts',
+    title: 'Script',
     link: '/docs/docs-example/scripts',
   },
   {
@@ -33,7 +33,7 @@ const features = [
     link: '/docs/docs-example/tutorials',
   },
   {
-    title: 'Use Cases',
+    title: 'Use Case',
     link: '/docs/docs-example/use-case',
   },
   {
