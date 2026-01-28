@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'API Documentation',
-    link: '/docs/api',
+    link: '/docs/docs-example/api',
   },
   {
     title: 'FAQs',
@@ -14,7 +14,7 @@ const features = [
   },
   {
     title: 'Feature Specifications',
-    link: '/docs/docs-example/feature-spec/index',
+    link: '/docs/docs-example/feature-spec',
   },
   {
     title: 'Glossary',
@@ -30,7 +30,7 @@ const features = [
   },
   {
     title: 'Tutorials',
-    link: '/docs/docs-example/tutorials/index',
+    link: '/docs/docs-example/tutorials',
   },
   {
     title: 'Use Cases',
