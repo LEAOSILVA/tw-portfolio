@@ -39,9 +39,6 @@ The excerpt below shows important information regarding the use of this componen
 3. The resource type being fetched is `Patient` and the patient identifier is `596526`.
 
 4. The data returned by the FHIR server is processed by the marshal EIP, which converts the response to JSON format.
-</Step>
-</Steps>
-
 
 ```yaml
 - from:
