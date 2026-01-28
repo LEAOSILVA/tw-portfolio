@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# UX writing
+# UX Writing
 
 > **Context**
 >

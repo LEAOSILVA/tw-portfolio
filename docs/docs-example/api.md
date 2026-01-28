@@ -2,7 +2,7 @@
 sidebar_position: 1 
 ---
 
-# API documentation
+# API Documentation
 
 > **Context**
 >

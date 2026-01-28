@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# Use case
+# Use Case
 
 > **Context**
 >

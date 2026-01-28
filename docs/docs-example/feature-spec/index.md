@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Feature specifications
+# Feature Specifications
 
 Here you will find detailed specifications for selected features and components used in integration flows. 
 
