@@ -1,7 +1,7 @@
 {
   "id": "docs-example/feature-spec",
   "title": "Feature spec",
-  "description": "Sensedia Integrations uses Apache Camel components and EIPs to build integration flows.",
+  "description": "Context",
   "source": "@site/docs/docs-example/feature-spec.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/feature-spec",

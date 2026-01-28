@@ -7,6 +7,7 @@ sidebar_position: 7
 > **Context**
 >
 >The excerpt below comes from a training session that walks users through the creation of an integration flow, guiding them step by step from start to finish. It includes detailed configurations for each step, along with the corresponding logs and traces.
+>
 > For clarity, the flow steps are summarized below. We will focus on **Step 5: Data transformation with JSONata**.
 
 1. **Order received with a REST trigger**  

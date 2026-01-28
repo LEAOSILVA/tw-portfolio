@@ -5,6 +5,7 @@ sidebar_position: 4
 # Feature spec
 
 > **Context**
+>
 > The **Marshal** and **Unmarshal** EIPs enable interoperability between systems by transforming data across different format types.
 >
 >The excerpt below introduces the **Custom** format type, which allows users to process Excel spreadsheets within an integration flow using the Marshal/Unmarshal EIPs.

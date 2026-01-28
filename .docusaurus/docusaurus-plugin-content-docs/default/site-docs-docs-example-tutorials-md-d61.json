@@ -1,7 +1,7 @@
 {
   "id": "docs-example/tutorials",
   "title": "Tutorial",
-  "description": "This tutorial explains how to integrate Sensedia’s API Platform and Events Hub to help Open Finance customers in Brazil comply with Central Bank requirements.",
+  "description": "Context",
   "source": "@site/docs/docs-example/tutorials.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/tutorials",

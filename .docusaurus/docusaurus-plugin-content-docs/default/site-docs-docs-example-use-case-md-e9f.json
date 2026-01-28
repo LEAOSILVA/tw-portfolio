@@ -1,7 +1,7 @@
 {
   "id": "docs-example/use-case",
   "title": "Use case",
-  "description": "This use case demonstrates a real-world scenario in systems integrations for payment management. It provides clear guidance that helps customers understand the process and apply it effectively.",
+  "description": "Context",
   "source": "@site/docs/docs-example/use-case.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/use-case",

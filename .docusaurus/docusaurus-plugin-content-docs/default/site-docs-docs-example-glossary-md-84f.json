@@ -1,7 +1,7 @@
 {
   "id": "docs-example/glossary",
   "title": "Glossary",
-  "description": "This glossary sample presents key terms and concepts from Sensedia Integrations, organized for easy reference. It helps users quickly understand the platform’s language and functionality, demonstrating how clear, structured documentation supports effective learning and usage.",
+  "description": "Context",
   "source": "@site/docs/docs-example/glossary.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/glossary",

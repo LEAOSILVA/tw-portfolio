@@ -1,7 +1,7 @@
 {
   "id": "docs-example/scripts",
   "title": "Script",
-  "description": "The excerpt below comes from a training session that walks users through the creation of an integration flow, guiding them step by step from start to finish. It includes detailed configurations for each step, along with the corresponding logs and traces.",
+  "description": "Context",
   "source": "@site/docs/docs-example/scripts.md",
   "sourceDirName": "docs-example",
   "slug": "/docs-example/scripts",

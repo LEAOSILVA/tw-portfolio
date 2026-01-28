@@ -6,7 +6,7 @@ sidebar_position: 5
 
 > **Context**
 >
-> Sample of a glossary with key terms and concepts used in an iPaas.
+> Sample of a glossary with key terms and concepts.
 
 ## A
 

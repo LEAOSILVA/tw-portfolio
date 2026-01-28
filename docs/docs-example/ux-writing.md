@@ -5,15 +5,16 @@ sidebar_position: 10
 # UX writing
 
 > **Context**
+>
 > This page showcases examples of microcopy I created for the product’s interface.  
 > The messages were designed to guide users through key actions, provide clarity, and ensure a smooth experience when working with integration flows.  
-
-You can explore the samples by category:  
-
-- [Alerts](#alerts)  
-- [Confirmation dialog](#confirmation-dialog)  
-- [Toasts](#toasts)  
-- [Tooltips](#tooltips)  
+>
+>You can explore the samples by category:  
+>
+>- [Alerts](#alerts)  
+>- [Confirmation dialog](#confirmation-dialog)  
+>- [Toasts](#toasts)  
+>- [Tooltips](#tooltips)  
 
 ## Alerts
 
