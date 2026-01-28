@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
-import Banner from '@site/static/img/banner-tw2.png'; // caminho para a imagem
+import Banner from '@site/static/img/banner-tw3.png'; // caminho para a imagem
 
 function HomepageHeader() {
   return (

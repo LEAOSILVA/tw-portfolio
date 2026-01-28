@@ -1,7 +1,7 @@
 {
   "id": "docs-example/feature-spec/index",
   "title": "Feature specifications",
-  "description": "This section provides detailed specifications for selected features and components used in integration flows. Explore the pages below to understand their purpose, configuration options, and usage guidelines.",
+  "description": "Hereyou will find detailed specifications for selected features and components used in integration flows.",
   "source": "@site/docs/docs-example/feature-spec/index.md",
   "sourceDirName": "docs-example/feature-spec",
   "slug": "/docs-example/feature-spec/",

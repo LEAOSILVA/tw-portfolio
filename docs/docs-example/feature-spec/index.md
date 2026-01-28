@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Feature specifications
 
-Hereyou will find detailed specifications for selected features and components used in integration flows. 
+Here you will find detailed specifications for selected features and components used in integration flows. 
 
 Explore the pages below to understand their purpose, configuration options, and usage guidelines.
 

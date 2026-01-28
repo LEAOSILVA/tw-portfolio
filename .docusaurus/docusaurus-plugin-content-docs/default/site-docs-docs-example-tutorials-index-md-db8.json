@@ -1,7 +1,7 @@
 {
   "id": "docs-example/tutorials/index",
   "title": "Tutorials",
-  "description": "Check out the following tutorials:",
+  "description": "These tutorials provide step-by-step guidance for implementing common integration scenarios using the platform. They focus on real-world use cases and core concepts, helping you understand how different components work together in practice.",
   "source": "@site/docs/docs-example/tutorials/index.md",
   "sourceDirName": "docs-example/tutorials",
   "slug": "/docs-example/tutorials/",
