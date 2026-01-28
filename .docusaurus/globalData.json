@@ -36,13 +36,13 @@
               "sidebar": "docsSidebar"
             },
             {
-              "id": "docs-example/feature-spec/data-format-custom",
-              "path": "/tw-portfolio/docs/docs-example/feature-spec/data-format-custom",
+              "id": "docs-example/feature-spec/feature-spec-data-format-custom",
+              "path": "/tw-portfolio/docs/docs-example/feature-spec/feature-spec-data-format-custom",
               "sidebar": "docsSidebar"
             },
             {
-              "id": "docs-example/feature-spec/fhir",
-              "path": "/tw-portfolio/docs/docs-example/feature-spec/fhir",
+              "id": "docs-example/feature-spec/feature-spec-fhir",
+              "path": "/tw-portfolio/docs/docs-example/feature-spec/feature-spec-fhir",
               "sidebar": "docsSidebar"
             },
             {

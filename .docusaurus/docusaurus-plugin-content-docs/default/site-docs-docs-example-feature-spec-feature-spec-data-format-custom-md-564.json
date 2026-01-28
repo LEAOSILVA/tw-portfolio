@@ -1,0 +1,26 @@
+{
+  "id": "docs-example/feature-spec/feature-spec-data-format-custom",
+  "title": "Custom data format",
+  "description": "Context",
+  "source": "@site/docs/docs-example/feature-spec/feature-spec-data-format-custom.md",
+  "sourceDirName": "docs-example/feature-spec",
+  "slug": "/docs-example/feature-spec/feature-spec-data-format-custom",
+  "permalink": "/tw-portfolio/docs/docs-example/feature-spec/feature-spec-data-format-custom",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Feature specifications",
+    "permalink": "/tw-portfolio/docs/docs-example/feature-spec/"
+  },
+  "next": {
+    "title": "FHIR",
+    "permalink": "/tw-portfolio/docs/docs-example/feature-spec/feature-spec-fhir"
+  }
+}

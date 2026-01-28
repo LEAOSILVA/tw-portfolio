@@ -79,15 +79,15 @@ export default [
   },
   {
     path: '/tw-portfolio/docs',
-    component: ComponentCreator('/tw-portfolio/docs', '325'),
+    component: ComponentCreator('/tw-portfolio/docs', 'fe5'),
     routes: [
       {
         path: '/tw-portfolio/docs',
-        component: ComponentCreator('/tw-portfolio/docs', '507'),
+        component: ComponentCreator('/tw-portfolio/docs', '33a'),
         routes: [
           {
             path: '/tw-portfolio/docs',
-            component: ComponentCreator('/tw-portfolio/docs', 'ff3'),
+            component: ComponentCreator('/tw-portfolio/docs', '36c'),
             routes: [
               {
                 path: '/tw-portfolio/docs/about-me/contact',
@@ -126,14 +126,14 @@ export default [
                 sidebar: "docsSidebar"
               },
               {
-                path: '/tw-portfolio/docs/docs-example/feature-spec/data-format-custom',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/feature-spec/data-format-custom', 'df4'),
+                path: '/tw-portfolio/docs/docs-example/feature-spec/feature-spec-data-format-custom',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/feature-spec/feature-spec-data-format-custom', '3dd'),
                 exact: true,
                 sidebar: "docsSidebar"
               },
               {
-                path: '/tw-portfolio/docs/docs-example/feature-spec/fhir',
-                component: ComponentCreator('/tw-portfolio/docs/docs-example/feature-spec/fhir', 'dfe'),
+                path: '/tw-portfolio/docs/docs-example/feature-spec/feature-spec-fhir',
+                component: ComponentCreator('/tw-portfolio/docs/docs-example/feature-spec/feature-spec-fhir', 'dc2'),
                 exact: true,
                 sidebar: "docsSidebar"
               },
