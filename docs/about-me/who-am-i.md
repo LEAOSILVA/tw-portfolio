@@ -2,21 +2,19 @@
 sidebar_position: 1
 ---
 
+# Introduction
 
-# Who am I?
-
-
-| ![Bio](/img/bio-red.png) |**Hello! I’m Natalia Leão**|
-|--------------------------|---------------------------|
-
+**Hello! I’m Natalia Leão**
 
 **Welcome to my corner of the web!** 
+
+---
 
 Here, you’ll find information about me, my professional experience, and a portfolio showcasing samples of my work.
 
 --- 
 
-I’m a Technical Writer with **3+ years of experience** turning complex software into clear, accessible documentation.
+I’m a **Technical Writer** with **3+ years of experience** turning complex software into clear, accessible documentation.
 
 I create customer-focused content for **SaaS** platforms using a **Docs-as-Code** approach to ensure **scalability**, **collaboration**, and seamless integration with **development workflows**. 
 
@@ -40,7 +38,7 @@ I’m passionate about creating documentation that not only informs but also emp
 
 | Category | Tools / Software |
 |----------|-----------------|
-| **Documentation & Publishing** | Docusaurus · Antora · AsciiDoc · Markdown · Confluence · Google Docs |
+| **Documentation & Publishing** | Docusaurus · Antora · AsciiDoc · Markdown · Strapi · Confluence · Google Docs |
 | **Development & Version Control** | Git · Bitbucket · HTML · CSS · Visual Studio Code |
 | **Design & Diagramming** | Figma · Canva · Draw.io |
 | **Multimedia & Editing** | Kdenlive · Subtitle Editor |

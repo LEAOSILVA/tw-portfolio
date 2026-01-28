@@ -1,6 +1,6 @@
 {
   "id": "docs-example/ux-writing",
-  "title": "UX writing",
+  "title": "UX Writing",
   "description": "Context",
   "source": "@site/docs/docs-example/ux-writing.md",
   "sourceDirName": "docs-example",
@@ -16,7 +16,7 @@
   },
   "sidebar": "docsSidebar",
   "previous": {
-    "title": "Use case",
+    "title": "Use Case",
     "permalink": "/tw-portfolio/docs/docs-example/use-case"
   }
 }
