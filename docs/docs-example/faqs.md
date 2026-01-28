@@ -45,10 +45,6 @@ You can create an instruction in two different ways:
     - Click the **fx**  button at the top right to open the expression editor. 
     - Type the expression using the Concat function. 
 
-:::note[NOTE]    
-See more details on how to [**build SQL instructions** and how to use the **Concat function**.
-:::
-
 </details>
 
    
@@ -67,9 +63,6 @@ If you can't view the execution traces of a flow, it is possible that the traces
 
   The option to view traces is only available for executions performed after the traces feature has been enabled.
  
-  :::note[NOTE] 
-  See how to **create a role and enable permissions in Access Control**
-  :::
 </details>
 
   
