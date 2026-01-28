@@ -4,11 +4,9 @@ sidebar_position: 8
 
 # Tutorials
 
-
-Check out the following tutorials:
+These tutorials provide step-by-step guidance for implementing common integration scenarios using the platform. They focus on real-world use cases and core concepts, helping you understand how different components work together in practice.
 
 - **Data quality engine**
-
 
   This tutorial explains how to integrate an API Platform and a software that distributes events in real time. The objective of this integration is to help Open Finance customers in Brazil comply with Central Bank requirements. 
 
